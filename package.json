@@ -1,5 +1,5 @@
 {
-  "name": "deepgrid-dr-silicon-v3",
+  "name": "deepgrid-dr-silicon-v7",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -18,7 +18,8 @@
     "check:semantic": "node scripts/check-semantic.mjs",
     "verify": "bash scripts/verify-local.sh",
     "verify:url": "node scripts/verify-routes.mjs",
-    "verify:nav": "node scripts/verify-nav.mjs"
+    "verify:nav": "node scripts/verify-nav.mjs",
+    "verify:storyboards": "node scripts/verify-v7-storyboards.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

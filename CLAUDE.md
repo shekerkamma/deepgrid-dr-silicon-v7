@@ -1,18 +1,18 @@
-# DeepGrid v6 site
+# DeepGrid v7 site
 
 Static Next-compatible site (Vinext) published to GitHub Pages at
-https://shekerkamma.github.io/deepgrid-dr-silicon-v6/: the mature-node silicon portfolio, with DG32 as the
+https://shekerkamma.github.io/deepgrid-dr-silicon-v7/: the mature-node silicon portfolio, with DG32 as the
 detailed pre-silicon proof point. Read `AGENTS.md` and `WORKSPACE_MAP.md` before broad discovery.
 
 ## Build and verify
 
 - `npm run typecheck`, then build with the same base path CI uses:
-  `PAGES_BASE=/deepgrid-dr-silicon-v6/ NEXT_PUBLIC_PAGES_BASE=/deepgrid-dr-silicon-v6/ npm run build:pages`
+  `PAGES_BASE=/deepgrid-dr-silicon-v7/ NEXT_PUBLIC_PAGES_BASE=/deepgrid-dr-silicon-v7/ npm run build:pages`
   (runs the content and class checks, then packages `dist/pages`). Without both variables packaging fails
   with `Unprefixed link: /`. Never `npm run build` alone: it clears `dist/` without producing `dist/pages`.
 - Read a build's exit code directly (`; echo "exit $?"`); a piped build hides failure.
 - Serve the build the way Pages does:
-  `python3 ~/.claude/skills/e2e-qa-review/scripts/serve_pages.py dist/pages deepgrid-dr-silicon-v6 8790`
+  `python3 ~/.claude/skills/e2e-qa-review/scripts/serve_pages.py dist/pages deepgrid-dr-silicon-v7 8790`
 - CI (`.github/workflows/pages.yml`) runs verify-routes and verify-nav before and after deploy.
 
 ## Design and content authority

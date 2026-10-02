@@ -54,7 +54,9 @@ next-env.d.ts
 /graphify-out/.graphify_detect.json
 /graphify-out/.graphify_ast.json
 /graphify-out/.graphify_labels.json.sig
-/public/vendor/
+/public/vendor/*
+!/public/vendor/scrollcraft.js
+!/public/vendor/scrollcraft.css
 *.tmp
 verify-shots/
 /.v6-serve/

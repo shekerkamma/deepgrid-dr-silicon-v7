@@ -1,0 +1,2087 @@
+{
+  "baseline": "c16a50ae84a6fd12a1e8bdee004ce1f61295848c",
+  "routeCount": 35,
+  "sectionCount": 203,
+  "method": "Source data + actual body headings; product story fields; authoritative source-reader chapter text preserved.",
+  "routes": [
+    {
+      "id": "home",
+      "route": "/",
+      "bluf": "Select a silicon architecture from the physical system job, then check its evidence.",
+      "audience": "Equipment engineering and diligence",
+      "decision": "Choose an application and inspect DG32 as the detailed proof point.",
+      "tension": "Portfolio breadth can conceal different physical requirements and maturity.",
+      "sections": [
+        {
+          "title": "Start with the system. Find its silicon.",
+          "implementation": "app/home-refined.tsx",
+          "role": "Answer and context",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Choose an application and inspect DG32 as the detailed proof point.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "The socket decides the silicon.",
+          "implementation": "app/home-refined.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Choose an application and inspect DG32 as the detailed proof point.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Reuse the foundation. Keep specialist blocks specialist.",
+          "implementation": "app/home-refined.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Choose an application and inspect DG32 as the detailed proof point.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "DG32 makes the safety argument inspectable.",
+          "implementation": "app/home-refined.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Choose an application and inspect DG32 as the detailed proof point.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Spend the remaining cycles on useful diagnosis.",
+          "implementation": "app/home-refined.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Choose an application and inspect DG32 as the detailed proof point.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "A tapeout is a milestone. Qualification is another job.",
+          "implementation": "app/home-refined.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Choose an application and inspect DG32 as the detailed proof point.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Two roadmaps. Four reasons to change course.",
+          "implementation": "app/home-refined.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Choose an application and inspect DG32 as the detailed proof point.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Bring the system. Start with the evidence.",
+          "implementation": "app/home-refined.tsx",
+          "role": "Implication and next decision",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Choose an application and inspect DG32 as the detailed proof point.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "products",
+      "route": "/products",
+      "bluf": "DG32-LITE and 2DOM share control and safety; the extra attention domain answers a distinct workload.",
+      "audience": "Motor-control engineer",
+      "decision": "Choose a variant from the control and diagnostic workload.",
+      "tension": "An accelerator does not improve sensing or make the safety case complete.",
+      "sections": [
+        {
+          "title": "A portfolio of physical jobs. Two DG32 variants in detail.",
+          "implementation": "app/products/page.tsx",
+          "role": "Answer and context",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Choose a variant from the control and diagnostic workload.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Different sockets. Named architectures.",
+          "implementation": "app/products/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Choose a variant from the control and diagnostic workload.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Self-test cannot see a fault between runs; lockstep checks every store.",
+          "implementation": "app/products/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Choose a variant from the control and diagnostic workload.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Six block groups on one clock; DG32-2DOM adds a seventh on its own.",
+          "implementation": "app/products/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Choose a variant from the control and diagnostic workload.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "The loop runs in hardware, so its cost is fixed.",
+          "implementation": "app/products/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Choose a variant from the control and diagnostic workload.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Mature-node silicon, around the sub-10 nm core.",
+          "implementation": "app/products/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Choose a variant from the control and diagnostic workload.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Start on DG32-LITE; move to DG32-2DOM when the drive should watch its own motor.",
+          "implementation": "app/products/page.tsx",
+          "role": "Implication and next decision",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Choose a variant from the control and diagnostic workload.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        }
+      ],
+      "primarySources": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "sku1",
+      "route": "/products/sku-1",
+      "bluf": "One die runs the motor and drives its power stage.",
+      "audience": "Equipment and silicon engineer",
+      "decision": "Bring motor voltage, switching edges, sensing quality, loop rate and the safe-state requirement.",
+      "tension": "The pre-driver rail spans 5 V to 120 V. A 16-bit ADC shares the die with a switching half-bridge. The control loop must close in under a microsecond.",
+      "sections": [
+        {
+          "title": "Voltage and switching noise decide the motor die.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-1; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Answer and context",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Sense, compute and drive share one proposed motor-control path.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-1; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "The motor-drive figures are architecture targets to test.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-1; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Isolation, timing and dead time decide whether the drive is usable.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-1; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Request the named validation records before advancing.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Evaluate the drive against its power stage and loop deadline.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-1; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Bring motor voltage, switching edges, sensing quality, loop rate and the safe-state requirement.",
+          "role": "Implication and next decision",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Unqualified production, certification, measured-performance or availability wording; prices, margins and market hype.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "sku2",
+      "route": "/products/sku-2",
+      "bluf": "A meter that keeps measuring, and keeps its record, when the mains is gone.",
+      "audience": "Equipment and silicon engineer",
+      "decision": "Bring meter accuracy class, current range, tamper scenarios and required outage retention.",
+      "tension": "Class 0.5S accuracy across a 1000:1 current range. The clock and tamper log must survive outages on a backup cell. Open 130 nm processes have no embedded flash.",
+      "sections": [
+        {
+          "title": "Metrology must survive tamper, outages and lifetime drift.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-2; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Answer and context",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Measurement and retention need distinct operating domains.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-2; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Accuracy and retention targets require lifetime measurements.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-2; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Prove the meter across drift, tamper and backup operation.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-2; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Request the named validation records before advancing.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Choose the meter only after the measurement case is defined.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-2; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Bring meter accuracy class, current range, tamper scenarios and required outage retention.",
+          "role": "Implication and next decision",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Unqualified production, certification, measured-performance or availability wording; prices, margins and market hype.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "sku3",
+      "route": "/products/sku-3",
+      "bluf": "Turn a 28 V equipment bus into four sequenced, supervised rails.",
+      "audience": "Equipment and silicon engineer",
+      "decision": "Bring the input surge profile, rail loads, capacitors, temperature and radiation requirements.",
+      "tension": "The input sees 4.5 to 40 V continuous, 80 V surges and 100 V spikes. A 12 ppm/°C reference from −55 to +125 °C. A single particle strike must not corrupt the power sequence.",
+      "sections": [
+        {
+          "title": "The 28 V bus makes surge survival a first design requirement.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-3; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Answer and context",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Sequenced rails and upset handling define the power architecture.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-3; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Regulator and environmental values remain design targets.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-3; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Surge, loop stability and upset spacing need physical evidence.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-3; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Request the named validation records before advancing.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Evaluate power integrity before promising equipment reliability.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-3; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Bring the input surge profile, rail loads, capacitors, temperature and radiation requirements.",
+          "role": "Implication and next decision",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Unqualified production, certification, measured-performance or availability wording; prices, margins and market hype.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "sku4",
+      "route": "/products/sku-4",
+      "bluf": "Two cores, two cycles apart, and a comparator that answers in hardware.",
+      "audience": "Equipment and silicon engineer",
+      "decision": "Bring fault cases, diagnostic coverage goals, interlock wiring and the applicable safety target.",
+      "tension": "A transient that hits both cores at once must still be caught. The fault response cannot depend on the processor that failed. Safety logic is small, deterministic and long-lived.",
+      "sections": [
+        {
+          "title": "Safety response needs deterministic comparison and a physical interlock.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-4; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Answer and context",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Two delayed cores feed one hardware fault path.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-4; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Separate the annex target from DG32 implementation evidence.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-4; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "The safety case needs coverage, alignment and safe-state tests.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-4; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Request the named validation records before advancing.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "DG32 is inspectable pre-silicon evidence, with qualification still ahead.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-4; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Bring fault cases, diagnostic coverage goals, interlock wiring and the applicable safety target.",
+          "role": "Implication and next decision",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Unqualified production, certification, measured-performance or availability wording; prices, margins and market hype.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "sku5",
+      "route": "/products/sku-5",
+      "bluf": "The link at every node of an industrial or vehicle bus.",
+      "audience": "Equipment and silicon engineer",
+      "decision": "Bring the bus standard, node count, cable length, fault voltages, ESD conditions and replacement pinout.",
+      "tension": "Bus pins face miswiring, ground shifts and electrostatic discharge. Reach and node count depend on edge timing, not headline bit rate. A dead or open bus must read as a known state.",
+      "sections": [
+        {
+          "title": "A exposed harness makes analog protection the decisive work.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-5; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Answer and context",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "The receiver, driver and protection structures define the link.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-5; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Interface rates and immunity are targets, not qualified limits.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-5; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Silicon ESD data and the first pin-compatible socket decide adoption.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-5; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Request the named validation records before advancing.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Evaluate the link in the wiring environment it must survive.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-5; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Bring the bus standard, node count, cable length, fault voltages, ESD conditions and replacement pinout.",
+          "role": "Implication and next decision",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Unqualified production, certification, measured-performance or availability wording; prices, margins and market hype.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "sku6",
+      "route": "/products/sku-6",
+      "bluf": "Watch four rails, ignore the switching noise, latch the real fault.",
+      "audience": "Equipment and silicon engineer",
+      "decision": "Bring rail voltages, ramp sequences, converter noise, reset deadline and required screening.",
+      "tension": "Thresholds accurate to a fraction of a percent. A buck converter’s ripple must not trip it; a real brownout must. A reference stable over the military temperature range.",
+      "sections": [
+        {
+          "title": "A supervisor must reject noise without missing a damaging fault.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-6; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Answer and context",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Four monitored rails feed filtering and a latched reset decision.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-6; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Threshold and timing targets need measured drift and noise data.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-6; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Deglitch, ripple and ageing decide whether reset is trustworthy.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-6; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Request the named validation records before advancing.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Screening is a gate to prove, not a badge the architecture holds.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-6; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Bring rail voltages, ramp sequences, converter noise, reset deadline and required screening.",
+          "role": "Implication and next decision",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Unqualified production, certification, measured-performance or availability wording; prices, margins and market hype.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "sku7",
+      "route": "/products/sku-7",
+      "bluf": "Two dies, because 77 GHz and signal processing want different silicon.",
+      "audience": "Equipment and silicon engineer",
+      "decision": "Bring range, target conditions, chirp requirements, radio co-existence and the intended RF test setup.",
+      "tension": "Gain at 77 GHz. Range resolution of 3.75 cm. Fast converters and FFTs next to sensitive RF.",
+      "sections": [
+        {
+          "title": "The RF front end must be proven on silicon.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-7; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Answer and context",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Two process choices divide RF sensing from target processing.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-7; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Range and chirp figures are architecture targets.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-7; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "The die boundary and interference environment govern radar risk.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-7; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Request the named validation records before advancing.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Choose the radar evaluation around an RF measurement plan.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-7; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Bring range, target conditions, chirp requirements, radio co-existence and the intended RF test setup.",
+          "role": "Implication and next decision",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Unqualified production, certification, measured-performance or availability wording; prices, margins and market hype.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "sku8",
+      "route": "/products/sku-8",
+      "bluf": "A cockpit display driver that notices when the picture freezes.",
+      "audience": "Equipment and silicon engineer",
+      "decision": "Bring panel interface, resolution, temperature, sunlight contrast and acceptable freeze-detection time.",
+      "tension": "Panel columns swing 0 to 12 V and row drivers need 24 V. Contrast must hold at +85 °C in direct sun. A frozen display in a cockpit is a hazard, not a glitch.",
+      "sections": [
+        {
+          "title": "Panel voltage and temperature set the display-driver physics.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-8; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Answer and context",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Timing, source drive and freeze detection share one design.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-8; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Display and fault-detection targets require panel testing.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-8; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Contrast, heat and freeze detection determine cockpit usefulness.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-8; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Request the named validation records before advancing.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Evaluate the displayed result under the operator’s conditions.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-8; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Bring panel interface, resolution, temperature, sunlight contrast and acceptable freeze-detection time.",
+          "role": "Implication and next decision",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Unqualified production, certification, measured-performance or availability wording; prices, margins and market hype.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "sku9",
+      "route": "/products/sku-9",
+      "bluf": "The zonal edge of a software-defined vehicle, not its central computer.",
+      "audience": "Equipment and silicon engineer",
+      "decision": "Bring network traffic, critical latency, fused loads, harness inductance and isolation requirements.",
+      "tension": "Switch and protect 12 V and 48 V loads in a harness. Brake-by-wire messages need bounded latency on a shared link. Safety-critical and comfort functions share one chip.",
+      "sections": [
+        {
+          "title": "Zonal loads and wiring require a different node from central compute.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-9; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Answer and context",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Local networking, smart fuses and isolated control share the zone.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-9; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Latency and protection figures remain architecture targets.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-9; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Harness faults and competing traffic must be tested together.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-9; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Request the named validation records before advancing.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Keep the zone’s control case separate from central computing.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: sku-9; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Bring network traffic, critical latency, fused loads, harness inductance and isolation requirements.",
+          "role": "Implication and next decision",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Unqualified production, certification, measured-performance or availability wording; prices, margins and market hype.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "d100",
+      "route": "/products/d100",
+      "bluf": "A drone SoC whose failsafe does not trust its own flight computer.",
+      "audience": "Equipment and silicon engineer",
+      "decision": "Bring the airframe, navigation conditions, thermal envelope, lost-link cases and required flight-safety evidence.",
+      "tension": "Recovery must work when the flight software has failed. Navigation without GPS. Vision AI needs dense logic that 130 nm cannot supply.",
+      "sections": [
+        {
+          "title": "A failsafe must act when the mission computer cannot.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: d100; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Answer and context",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Flight, geometric navigation and failsafe are separate responsibilities.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: d100; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Navigation and thermal targets need airframe evidence.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: d100; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Inspect the source design target and its physical implication.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Flight safety depends on drift, heat and failure-injection tests.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: d100; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Request the named validation records before advancing.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        },
+        {
+          "title": "Start the flight evaluation with the safe-state transition.",
+          "implementation": "app/product-pages-data.ts + app/product-page.tsx",
+          "source": "SKU Architecture Compendium: d100; product.questions and reconcile; applications-story-data.ts evidence",
+          "action": "Bring the airframe, navigation conditions, thermal envelope, lost-link cases and required flight-safety evidence.",
+          "role": "Implication and next decision",
+          "visual": "Source-backed architecture storyboard, parameter table and engineering questions."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Unqualified production, certification, measured-performance or availability wording; prices, margins and market hype.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "technology",
+      "route": "/technology",
+      "bluf": "A frozen 50 MHz control core and a separate attention domain bound the architecture.",
+      "audience": "Silicon and firmware engineer",
+      "decision": "Inspect the block, data path and implementation constraint relevant to the design.",
+      "tension": "Changing a block can change timing, clock boundaries and validation scope.",
+      "sections": [
+        {
+          "title": "Two chips, one frozen safety core",
+          "implementation": "app/technology/page.tsx",
+          "role": "Answer and context",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "DG32-LITE runs a second identical core two cycles behind the first, so a datapath fault reaches the gate driver without firmware.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Four hardening findings set the shape of every block, starting with a lockstep core that tops out near 55–62 MHz.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Six block groups share one deterministic 50 MHz bus, and each exists because something on the die could not be left to firmware.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "One current loop costs about 300 hardware cycles at any loop rate, the boot has no rescue path, and the fault path never waits for firmware.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Four decisions are frozen until first-silicon test, and the largest is that the control core will not be reopened for features.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "DG32-2DOM adds a 114 MHz attention engine behind CDC bridges, so the frozen 50 MHz control core keeps its timing closure untouched.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Four physical findings forced a second clock domain and a second die, including an INT4 output that came out identically zero.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Softmax weights are never quantised, 15-bit all the way through a 40-bit numerator, with only the output saturated to INT8.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Half of every query row is the weighted sum over values, 1,600 cycles of 3,242, and the key pass is another 800.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "The control loop cannot tell the engine is running, because no engine transaction can extend the core’s worst-case execution time.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Both domains close post-route with positive slack, +0.30 ns at 50 MHz and +0.19 ns at 114 MHz.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "The attention engine widens the die by 0.5 mm, and changes nothing about the 44-signal QFN-64 pinout.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "DG32-2DOM is a build option and a second clock, not a fork, so both chips come from one design source, with the control core unchanged.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "The tape-in diagram records the die as fabricated, one 50 MHz domain, no PLL, and all 44 pads allocated.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Every subsystem is configured for a first shuttle with no respin, one clock domain, no PLL, and eight software clock gates.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "All 44 signal pads are allocated, QSPI flash and PWM take seven each, and nothing is left spare.",
+          "implementation": "app/architecture.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Four gates run on the final hardened die, and passing three of them is not enough to tape out.",
+          "implementation": "app/architecture.tsx",
+          "role": "Implication and next decision",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the block, data path and implementation constraint relevant to the design.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        }
+      ],
+      "primarySources": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "safety",
+      "route": "/technology/safety",
+      "bluf": "The hardware fault path can disable the bridge without waiting for firmware; qualification remains separate.",
+      "audience": "Safety engineer",
+      "decision": "Define the fault cases and safe-state measurements needed for an evaluation.",
+      "tension": "A silent computation fault is dangerous; one detector cannot establish complete safety coverage.",
+      "sections": [
+        {
+          "title": "From a wrong value to a safe bridge",
+          "implementation": "app/technology/safety/page.tsx",
+          "role": "Answer and context",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Define the fault cases and safe-state measurements needed for an evaluation.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "The same path in ninety seconds, from a wrong value to a switched-off bridge.",
+          "implementation": "app/technology/safety/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Define the fault cases and safe-state measurements needed for an evaluation.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Each failure ends at a signal, never at silence.",
+          "implementation": "app/technology/safety/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Define the fault cases and safe-state measurements needed for an evaluation.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Firmware fires the fault on purpose, so bring-up can exercise the hardware path.",
+          "implementation": "app/technology/safety/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Define the fault cases and safe-state measurements needed for an evaluation.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "A classifier can warn. Only hardware trips the bridge.",
+          "implementation": "app/technology/safety/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Define the fault cases and safe-state measurements needed for an evaluation.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Two paths cross the die, and only one is firmware.",
+          "implementation": "app/technology/safety/page.tsx",
+          "role": "Implication and next decision",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Define the fault cases and safe-state measurements needed for an evaluation.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        }
+      ],
+      "primarySources": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "control",
+      "route": "/technology/control-loop",
+      "bluf": "The hardware cost is fixed, while firmware and diagnostics must fit the selected loop period.",
+      "audience": "Controls engineer",
+      "decision": "Select the loop rate and budget the regulators, observers and diagnostics.",
+      "tension": "Confusing remaining cycle budget with diagnostic headroom overstates available compute.",
+      "sections": [
+        {
+          "title": "The CPU runs two regulators, not the loop",
+          "implementation": "app/package-control.tsx",
+          "role": "Answer and context",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Select the loop rate and budget the regulators, observers and diagnostics.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "The core fetches every instruction, so the peripherals do the maths.",
+          "implementation": "app/package-control.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Select the loop rate and budget the regulators, observers and diagnostics.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "What firmware can count on, block by block.",
+          "implementation": "app/package-control.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Select the loop rate and budget the regulators, observers and diagnostics.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Six stages per control tick, and the CPU computes only the two regulators",
+          "implementation": "app/package-control.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Select the loop rate and budget the regulators, observers and diagnostics.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "About 300 cycles are hardware, whatever the loop rate.",
+          "implementation": "app/package-control.tsx",
+          "role": "Implication and next decision",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Select the loop rate and budget the regulators, observers and diagnostics.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        }
+      ],
+      "primarySources": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "die",
+      "route": "/technology/die",
+      "bluf": "The floorplan explains implementation constraints and reserves manufactured-silicon proof for bring-up.",
+      "audience": "Physical-design engineer",
+      "decision": "Inspect the floorplan and the source implementation record.",
+      "tension": "A rendered or routed die is not a manufactured or characterised device.",
+      "sections": [
+        {
+          "title": "Six functional groups. One of them is frozen.",
+          "implementation": "app/die-stage.tsx",
+          "role": "Answer and context",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the floorplan and the source implementation record.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Five of the six are yours. This one is not.",
+          "implementation": "app/die-stage.tsx",
+          "role": "Implication and next decision",
+          "source": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+          "action": "Inspect the floorplan and the source implementation record.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        }
+      ],
+      "primarySources": "DG32-LITE Architecture Guide; DG32-2DOM Architecture Guide; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "package",
+      "route": "/technology/package",
+      "bluf": "The common QFN-64 pinout supports a preliminary board discussion; electrical limits await silicon.",
+      "audience": "Board designer",
+      "decision": "Separate fixed interfaces from preliminary electrical assumptions.",
+      "tension": "Locking a board around uncharacterised limits can create a costly redesign.",
+      "sections": [
+        {
+          "title": "44 signals in a 9 × 9 mm package",
+          "implementation": "app/technology/package/page.tsx",
+          "role": "Answer and context",
+          "source": "DeepGrid Datasheets Engineering Specification; claims.ts",
+          "action": "Separate fixed interfaces from preliminary electrical assumptions.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "One rail powers all of the logic.",
+          "implementation": "app/technology/package/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DeepGrid Datasheets Engineering Specification; claims.ts",
+          "action": "Separate fixed interfaces from preliminary electrical assumptions.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Every electrical limit is a nominal until silicon.",
+          "implementation": "app/technology/package/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "DeepGrid Datasheets Engineering Specification; claims.ts",
+          "action": "Separate fixed interfaces from preliminary electrical assumptions.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "What a design can lock now, and what waits for silicon.",
+          "implementation": "app/technology/package/page.tsx",
+          "role": "Implication and next decision",
+          "source": "DeepGrid Datasheets Engineering Specification; claims.ts",
+          "action": "Separate fixed interfaces from preliminary electrical assumptions.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        }
+      ],
+      "primarySources": "DeepGrid Datasheets Engineering Specification; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "applications",
+      "route": "/applications",
+      "bluf": "Equipment constraints choose the architecture; DG32 diagnosis fits around control and sensing.",
+      "audience": "Equipment and controls engineer",
+      "decision": "Find the system job, then determine whether its signal and workload fit.",
+      "tension": "A model that fits compute can still fail when the measured signal lacks useful information.",
+      "sections": [
+        {
+          "title": "Ten architectures answer five kinds of equipment job",
+          "implementation": "app/applications/page.tsx",
+          "role": "Answer and context",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Find the system job, then determine whether its signal and workload fit.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "In a motor drive, control comes first. Diagnostics has to fit around it.",
+          "implementation": "app/applications-story.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Find the system job, then determine whether its signal and workload fit.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Control costs a fixed amount of hardware time, so what is left is a known budget.",
+          "implementation": "app/applications-story.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Find the system job, then determine whether its signal and workload fit.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "On this core, small classical models beat neural networks, and the signal matters more than the model.",
+          "implementation": "app/applications-story.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Find the system job, then determine whether its signal and workload fit.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Compute is not the limit. The sensors are.",
+          "implementation": "app/applications-story.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Find the system job, then determine whether its signal and workload fit.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "DG32-2DOM adds an attention engine, on its own clock, for the models the scalar core runs slowly.",
+          "implementation": "app/applications-story.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Find the system job, then determine whether its signal and workload fit.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Every figure here is derived, not measured, and the classifier never holds the trip.",
+          "implementation": "app/applications-story.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Find the system job, then determine whether its signal and workload fit.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "DG32-LITE is a safety microcontroller for motors and batteries, and it can watch the machine it controls.",
+          "implementation": "app/applications-story.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Find the system job, then determine whether its signal and workload fit.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "It goes into five places, and each one has its own faults worth watching.",
+          "implementation": "app/applications-story.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Find the system job, then determine whether its signal and workload fit.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Bring a failure mode and a sample rate. We will tell you whether it fits.",
+          "implementation": "app/applications-story.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Find the system job, then determine whether its signal and workload fit.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "In a motor drive, one chip runs the motor and another can stop it safely.",
+          "implementation": "app/applications-portfolio.tsx + app/applications-story-data.ts",
+          "action": "The motor, its power and speed range, the control loop rate and the sensing you have are what we need to answer.",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "In a vehicle, the chips sit at the edges: the battery, the brakes, the radar, the bus and the wiring zones.",
+          "implementation": "app/applications-portfolio.tsx + app/applications-story-data.ts",
+          "action": "The zone, its loads and buses, the latency the messages need and the safety target are what we need to answer.",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Defence, avionics and drones need screened parts, and a failsafe that does not depend on software.",
+          "implementation": "app/applications-portfolio.tsx + app/applications-story-data.ts",
+          "action": "The platform, its power bus, environment and screening route, and what must keep working when software fails, are what we need to answer.",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "For the national smart-meter rollout, one chip measures the power and records tampering.",
+          "implementation": "app/applications-portfolio.tsx + app/applications-story-data.ts",
+          "action": "The meter class, the channels you measure, the tamper events your tender names and the backup supply are what we need to answer.",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "A board needs predictable rails, a reliable link and a clear reset path.",
+          "implementation": "app/applications-portfolio.tsx + app/applications-story-data.ts",
+          "action": "The rails to supervise, the bus and its wiring, and the reset behaviour your board needs are what we need to answer.",
+          "role": "Implication and next decision",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "uc-motors",
+      "route": "/use-cases/motors",
+      "bluf": "In a motor drive, one chip runs the motor and another can stop it safely.",
+      "audience": "Equipment engineering",
+      "decision": "SKU-1 replaces the driver-plus-microcontroller pair in fans, appliances, EV two- and three-wheelers, robots and actuators. SKU-4, DG32-LITE, is the safety processor that supervises a motor and can shut it down.",
+      "tension": "Physical failures and different evidence stages require a scoped system evaluation.",
+      "sections": [
+        {
+          "title": "Separate motor control from supervision so the shutdown path can be reviewed independently.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts (Technical Annex v3)",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Answer and context",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "The motor the chips run and supervise",
+          "implementation": "app/company-pages.ts",
+          "source": "v3 three.js scenes",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Two architectures, each with a defined role here.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Four ways this system fails, and the block that catches each.",
+          "implementation": "app/company-pages.ts",
+          "source": "Technical Annex v3 engineering questions",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Evidence today: one chip is FPGA-validated, one has simulation and implementation records.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "DG32 in this application, explained",
+          "implementation": "app/company-pages.ts",
+          "source": "DG32 films",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Bring the system and its constraints.",
+          "implementation": "app/company-pages.ts",
+          "source": "site",
+          "action": "Discuss your application; All chips by application",
+          "role": "Implication and next decision",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "uc-vehicles",
+      "route": "/use-cases/vehicles",
+      "bluf": "In a vehicle, the chips sit at the edges: the battery, the brakes, the radar, the bus and the wiring zones.",
+      "audience": "Equipment engineering",
+      "decision": "The central computer of a software-defined vehicle is a sub-10 nm problem and is explicitly not claimed. What mature nodes own is everything around it.",
+      "tension": "Physical failures and different evidence stages require a scoped system evaluation.",
+      "sections": [
+        {
+          "title": "Mature nodes own the edges of the vehicle; the central computer is not claimed.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts (Technical Annex v3)",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Answer and context",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Four architectures, each with a defined role here.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Four ways this system fails, and the block that catches each.",
+          "implementation": "app/company-pages.ts",
+          "source": "Technical Annex v3 engineering questions",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Evidence today: one chip has simulation and implementation records, three are at architecture stage.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Bring the system and its constraints.",
+          "implementation": "app/company-pages.ts",
+          "source": "site",
+          "action": "Discuss your application; All chips by application",
+          "role": "Implication and next decision",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "uc-defence",
+      "route": "/use-cases/defence",
+      "bluf": "Defence, avionics and drones need screened parts, and a failsafe that does not depend on software.",
+      "audience": "Equipment engineering",
+      "decision": "The drone SoC keeps a hardware failsafe island wired straight to the motor controllers, so a crashed or jammed mission stack can still land the airframe.",
+      "tension": "Physical failures and different evidence stages require a scoped system evaluation.",
+      "sections": [
+        {
+          "title": "Each part answers one physical requirement of a screened platform: surge, upset, a hung stack or a frozen display.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts (Technical Annex v3)",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Answer and context",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Five architectures, each with a defined role here.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Four ways this system fails, and the block that catches each.",
+          "implementation": "app/company-pages.ts",
+          "source": "Technical Annex v3 engineering questions",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Evidence today: one chip is FPGA-validated, one has simulation and implementation records, three are at architecture stage.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Bring the system and its constraints.",
+          "implementation": "app/company-pages.ts",
+          "source": "site",
+          "action": "Discuss your application; All chips by application",
+          "role": "Implication and next decision",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "uc-grid",
+      "route": "/use-cases/grid",
+      "bluf": "For the national smart-meter rollout, one chip measures the power and records tampering.",
+      "audience": "Equipment engineering",
+      "decision": "Tamper detection is a tender requirement, so the chip keeps an always-on clock domain that logs a magnet or an opened case while mains power is cut.",
+      "tension": "Physical failures and different evidence stages require a scoped system evaluation.",
+      "sections": [
+        {
+          "title": "One chip measures the power and keeps the tamper record while mains is cut.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts (Technical Annex v3)",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Answer and context",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "One architecture addresses this system function.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Four ways this system fails, and the block that catches each.",
+          "implementation": "app/company-pages.ts",
+          "source": "Technical Annex v3 engineering questions",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Evidence today: the chip is FPGA-validated.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Bring the system and its constraints.",
+          "implementation": "app/company-pages.ts",
+          "source": "site",
+          "action": "Discuss your application; All chips by application",
+          "role": "Implication and next decision",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "uc-boards",
+      "route": "/use-cases/boards",
+      "bluf": "A board needs predictable rails, a reliable link and a clear reset path.",
+      "audience": "Equipment engineering",
+      "decision": "A supervisor watches a board’s power rails and a transceiver connects it to its bus. These architectures address common board functions; catalogue breadth does not establish shipping volume.",
+      "tension": "Physical failures and different evidence stages require a scoped system evaluation.",
+      "sections": [
+        {
+          "title": "Supervision and the bus link decide whether a board starts and talks predictably, below firmware.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts (Technical Annex v3)",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Answer and context",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Three architectures, each with a defined role here.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Four ways this system fails, and the block that catches each.",
+          "implementation": "app/company-pages.ts",
+          "source": "Technical Annex v3 engineering questions",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Evidence today: one chip is FPGA-validated, two are at architecture stage.",
+          "implementation": "app/company-pages.ts",
+          "source": "applications-story-data.ts",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Bring the system and its constraints.",
+          "implementation": "app/company-pages.ts",
+          "source": "site",
+          "action": "Discuss your application; All chips by application",
+          "role": "Implication and next decision",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "evidence",
+      "route": "/evidence",
+      "bluf": "Published figures are pre-silicon and must retain the method that produced them.",
+      "audience": "Technical diligence",
+      "decision": "Review method, primary document and withheld assertions before accepting a claim.",
+      "tension": "A simulation or estimate presented as a measurement changes the adoption decision.",
+      "sections": [
+        {
+          "title": "Every figure says how it was obtained",
+          "implementation": "app/evidence/page.tsx",
+          "role": "Answer and context",
+          "source": "claims.ts and its named public/downloads sources",
+          "action": "Review method, primary document and withheld assertions before accepting a claim.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Nothing here is measured on silicon yet. Every figure says what it rests on instead.",
+          "implementation": "app/evidence/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "claims.ts and its named public/downloads sources",
+          "action": "Review method, primary document and withheld assertions before accepting a claim.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Three claims in our own sources failed verification. This site does not make them.",
+          "implementation": "app/evidence/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "claims.ts and its named public/downloads sources",
+          "action": "Review method, primary document and withheld assertions before accepting a claim.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Simulation shows the design behaves as intended before any silicon exists.",
+          "implementation": "app/evidence/page.tsx",
+          "action": "Inspect the claims classified under this evidence method and their named sources.",
+          "role": "Proof, constraint or evidence gate",
+          "source": "claims.ts and its named public/downloads sources",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Post-route timing is checked on the laid-out design, which is still not silicon.",
+          "implementation": "app/evidence/page.tsx",
+          "action": "Inspect the claims classified under this evidence method and their named sources.",
+          "role": "Proof, constraint or evidence gate",
+          "source": "claims.ts and its named public/downloads sources",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Analytic figures are arithmetic on the architecture, and a bench measurement replaces them.",
+          "implementation": "app/evidence/page.tsx",
+          "action": "Inspect the claims classified under this evidence method and their named sources.",
+          "role": "Proof, constraint or evidence gate",
+          "source": "claims.ts and its named public/downloads sources",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "The power figure is a tool estimate, not a measurement.",
+          "implementation": "app/evidence/page.tsx",
+          "action": "Inspect the claims classified under this evidence method and their named sources.",
+          "role": "Proof, constraint or evidence gate",
+          "source": "claims.ts and its named public/downloads sources",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Electrical limits are process nominals until first-silicon characterisation replaces them.",
+          "implementation": "app/evidence/page.tsx",
+          "action": "Inspect the claims classified under this evidence method and their named sources.",
+          "role": "Proof, constraint or evidence gate",
+          "source": "claims.ts and its named public/downloads sources",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Some figures are design decisions, not measurements of anything.",
+          "implementation": "app/evidence/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "claims.ts and its named public/downloads sources",
+          "action": "Review method, primary document and withheld assertions before accepting a claim.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "The other nine chips rest on design documents and FPGA prototypes, not silicon.",
+          "implementation": "app/evidence/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "claims.ts and its named public/downloads sources",
+          "action": "Review method, primary document and withheld assertions before accepting a claim.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "What this site does not claim, and where to check what it does.",
+          "implementation": "app/evidence/page.tsx",
+          "role": "Implication and next decision",
+          "source": "claims.ts and its named public/downloads sources",
+          "action": "Review method, primary document and withheld assertions before accepting a claim.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        }
+      ],
+      "primarySources": "claims.ts and its named public/downloads sources",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "procurement",
+      "route": "/procurement",
+      "bluf": "Evaluate DG32 against the intended drive and its documented gaps before committing to a board.",
+      "audience": "Engineering and procurement",
+      "decision": "Choose an evaluation or defer until the required feature and evidence gate exist.",
+      "tension": "Production alternatives have maturity and analog advantages that architecture comparisons can hide.",
+      "sections": [
+        {
+          "title": "Where DG32 leads, and where it does not yet",
+          "implementation": "app/procurement/page.tsx",
+          "role": "Answer and context",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Choose an evaluation or defer until the required feature and evidence gate exist.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Every gap is a deliberate sequencing choice, and each one closes in the order that first silicon makes possible.",
+          "implementation": "app/procurement/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Choose an evaluation or defer until the required feature and evidence gate exist.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Closing the gaps in deliberate order.",
+          "implementation": "app/procurement/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Choose an evaluation or defer until the required feature and evidence gate exist.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Evaluate DG32-LITE now if the drive needs lockstep; wait for the second spin if it needs a 12-bit ADC or embedded flash.",
+          "implementation": "app/procurement/page.tsx",
+          "role": "Implication and next decision",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Choose an evaluation or defer until the required feature and evidence gate exist.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "resources",
+      "route": "/resources",
+      "bluf": "Read the primary source and use the walkthrough to understand its scope.",
+      "audience": "Engineering reviewer",
+      "decision": "Open the relevant document, chapter or narrated design package.",
+      "tension": "A diagram or slide can lose the conditions attached to its technical figure.",
+      "sections": [
+        {
+          "title": "Every figure on this site traces to one of these documents",
+          "implementation": "app/documents-hub.tsx",
+          "role": "Answer and context",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Open the relevant document, chapter or narrated design package.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Follow the design from input to evidence.",
+          "implementation": "app/library.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Open the relevant document, chapter or narrated design package.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Film chapters, slide titles and download sources retain the selected package’s own narrative.",
+          "implementation": "app/library.tsx + app/library-data.ts",
+          "role": "Implication and next decision",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Open the relevant document, chapter or narrated design package.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "docs",
+      "route": "/resources/docs",
+      "bluf": "Read the source before you design around the claim.",
+      "audience": "Technical reviewer",
+      "decision": "Published architecture documents and preliminary datasheets explain the design. Resources marked on request are enquiries, not available downloads.",
+      "tension": "Evidence and operating constraints must accompany the enquiry.",
+      "sections": [
+        {
+          "title": "Published sources let you check the design and its limits.",
+          "implementation": "app/company-pages.ts",
+          "source": "app/documents-data.ts (grounded document registry)",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Answer and context",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Published documents and resources on request.",
+          "implementation": "app/company-pages.ts",
+          "source": "deepgridsemi.com/resources/docs + the site’s own PDFs",
+          "action": "Open a published file or explicitly request access.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Preliminary datasheets define the documented design.",
+          "implementation": "app/resources-data.ts",
+          "source": "deepgridsemi.com/resources/docs + the site’s own PDFs",
+          "action": "Published preliminary datasheets and portfolio architecture sheets; other titles are on-request enquiries.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "SDK availability must be confirmed for the intended hardware.",
+          "implementation": "app/resources-data.ts",
+          "source": "deepgridsemi.com/resources/docs + the site’s own PDFs",
+          "action": "SDK guides are on request. Availability and supported hardware must be confirmed before integration.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Whitepapers explain the architecture and planning assumptions.",
+          "implementation": "app/resources-data.ts",
+          "source": "deepgridsemi.com/resources/docs + the site’s own PDFs",
+          "action": "In-depth research papers and technical analyses",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Integration guidance is scoped on request.",
+          "implementation": "app/resources-data.ts",
+          "source": "deepgridsemi.com/resources/docs + the site’s own PDFs",
+          "action": "Request the board, software and configuration guidance for your intended part; these titles are not published guides.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "A performance claim needs its measurement method.",
+          "implementation": "app/resources-data.ts",
+          "source": "deepgridsemi.com/resources/docs + the site’s own PDFs",
+          "action": "Trace each result to its method: simulation, implementation or estimate. Manufactured-silicon benchmarks are not implied.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Software access is an enquiry until a release is provided.",
+          "implementation": "app/resources-data.ts",
+          "source": "deepgridsemi.com/resources/docs + the site’s own PDFs",
+          "action": "Enquire about drivers, firmware and development kits; no public SDK release is supplied here.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Bring the requirement the documents do not settle.",
+          "implementation": "app/company-pages.ts",
+          "source": "deepgridsemi.com/resources/docs",
+          "action": "Contact Support; Videos",
+          "role": "Implication and next decision",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "videos",
+      "route": "/resources/videos",
+      "bluf": "See the demonstrated setup, then check what it establishes.",
+      "audience": "Technical reviewer",
+      "decision": "Recorded demonstrations, simulations and layout walkthroughs explain different systems. Footage of a platform does not verify DG32 silicon, safety qualification or performance across operating conditions.",
+      "tension": "Evidence and operating constraints must accompany the enquiry.",
+      "sections": [
+        {
+          "title": "Each recording belongs to its own platform and evidence scope.",
+          "implementation": "app/company-pages.ts",
+          "source": "deepgridsemi.com/resources/videos + youtube.com DeepGrid Semi channel",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Answer and context",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Layout walkthroughs explain the design and its limits.",
+          "implementation": "app/resources-data.ts",
+          "source": "deepgridsemi.com/resources/videos + youtube.com/@DeepGridSemi channel",
+          "action": "Inspect layout and architecture walkthroughs. These recordings show design work, not manufactured-silicon power or inference measurements.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "ADAS recordings show their specific road or simulator setup.",
+          "implementation": "app/resources-data.ts",
+          "source": "deepgridsemi.com/resources/videos",
+          "action": "From Indian city streets to benchmark datasets: real-world road tests plus the end-to-end perception, prediction, and planning stack that powers them on CARLA, Waymo, and nuScenes.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "D-Mirror demonstrations show alerts on the mirror display.",
+          "implementation": "app/resources-data.ts",
+          "source": "deepgridsemi.com/resources/videos",
+          "action": "The AD0 Smart Mirror (D-Mirror) turns the rear-view mirror into a live ADAS display: thermal vision that sees through glare, with real-time driver and hazard alerts.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "D-Drive recordings expose individual mobility functions.",
+          "implementation": "app/resources-data.ts",
+          "source": "deepgridsemi.com/resources/videos + youtube.com/@DeepGridSemi channel",
+          "action": "Field tests of the D-Drive autonomous mobility platform: follow-me navigation, bird’s-eye-view perception, and autonomous steering control.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Apexgrid recordings show calibration and early movement.",
+          "implementation": "app/resources-data.ts",
+          "source": "youtube.com/@DeepGridSemi channel",
+          "action": "The Apexgrid humanoid: joint calibration, balance and first movements.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Company recordings provide reported context.",
+          "implementation": "app/resources-data.ts",
+          "source": "youtube.com/@DeepGridSemi channel",
+          "action": "The founder with T-Hub, and the company website.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Tool demonstrations show the board-design workflow.",
+          "implementation": "app/resources-data.ts",
+          "source": "youtube.com/@DeepGridSemi channel",
+          "action": "The in-house tools behind the boards.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Simulations and the narrated walkthrough",
+          "implementation": "app/company-pages.ts",
+          "source": "showcase films",
+          "action": "Narrated decks & films; Documentation",
+          "role": "Implication and next decision",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "read",
+      "route": "/resources/read",
+      "bluf": "Preserve the source edition while making the maturity and corrective evidence route visible.",
+      "audience": "Source reviewer",
+      "decision": "Read the cited section, retain its conditions and compare it with the corrective register.",
+      "tension": "Changing a primary source to match marketing would erase the evidence trail.",
+      "sections": [
+        {
+          "title": "Choose the source edition and the cited chapter.",
+          "implementation": "app/doc-reader.tsx",
+          "role": "Answer and context",
+          "source": "The selected public/downloads source edition; corrective claims.ts",
+          "action": "Read the cited section, retain its conditions and compare it with the corrective register.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "The source is unchanged; compare targets and dated plans with current evidence.",
+          "implementation": "app/doc-reader.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "The selected public/downloads source edition; corrective claims.ts",
+          "action": "Read the cited section, retain its conditions and compare it with the corrective register.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Read all original chapter headings from the selected source, without rewriting its assertions.",
+          "implementation": "app/doc-reader.tsx + public/downloads/*.md",
+          "role": "Implication and next decision",
+          "source": "The selected public/downloads source edition; corrective claims.ts",
+          "action": "Read the cited section, retain its conditions and compare it with the corrective register.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        }
+      ],
+      "primarySources": "The selected public/downloads source edition; corrective claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "ask",
+      "route": "/ask",
+      "bluf": "The index helps find source passages; the primary publication decides what can be claimed.",
+      "audience": "Technical researcher",
+      "decision": "Follow a cited result to its document and check the evidence maturity.",
+      "tension": "Indexed assertions and synthesis can preserve conflicts or outdated plans.",
+      "sections": [
+        {
+          "title": "Find the source, then check whether the claim supports your decision.",
+          "implementation": "app/ask.tsx",
+          "role": "Answer and context",
+          "source": "Indexed catalogue for discovery; named primary source and claims.ts for assertion authority",
+          "action": "Follow a cited result to its document and check the evidence maturity.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Cited answers, a discovery graph and indexed dossiers provide three routes into the primary documents.",
+          "implementation": "app/ask.tsx",
+          "role": "Implication and next decision",
+          "source": "Indexed catalogue for discovery; named primary source and claims.ts for assertion authority",
+          "action": "Follow a cited result to its document and check the evidence maturity.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        }
+      ],
+      "primarySources": "Indexed catalogue for discovery; named primary source and claims.ts for assertion authority",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "about",
+      "route": "/about",
+      "bluf": "Build edge intelligence around the equipment’s physical job.",
+      "audience": "Company diligence",
+      "decision": "DeepGrid’s portfolio starts with motion, power, sensing, interfaces and safety. DG32 is the detailed pre-silicon engineering case; each wider architecture needs its own implementation and qualification evidence.",
+      "tension": "Company-reported context cannot establish current contracts, qualification or device performance.",
+      "sections": [
+        {
+          "title": "The equipment defines the silicon.",
+          "implementation": "app/company-pages.ts",
+          "source": "showcase: Mature-Node Silicon System Architecture",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Answer and context",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Three decisions shape the development programme.",
+          "implementation": "app/company-pages.ts",
+          "source": "showcase: Mature-Node Silicon System Architecture",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "A specification reaches a customer through evidence gates.",
+          "implementation": "app/company-pages.ts",
+          "source": "showcase: Mature-Node Silicon System Architecture",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Choose the system you want to evaluate.",
+          "implementation": "app/company-pages.ts",
+          "source": "site",
+          "action": "Find the application; Review the portfolio strategy; Meet the reported team",
+          "role": "Implication and next decision",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Unverified headcounts, awards without issuer evidence, traction counts, guarantees and current contract implications.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "team",
+      "route": "/about/team",
+      "bluf": "Leadership and team",
+      "audience": "Company diligence",
+      "decision": "Company-reported leadership, engineering roles, advisors and specialist relationships. This roster identifies responsibilities; it does not establish headcount, current contracts or completed silicon.",
+      "tension": "Company-reported context cannot establish current contracts, qualification or device performance.",
+      "sections": [
+        {
+          "title": "Leadership connects the architecture to an equipment decision.",
+          "implementation": "app/company-pages.ts",
+          "source": "https://deepgridsemi.com/about/team",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Answer and context",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Commercial and governance roles support the engineering programme.",
+          "implementation": "app/company-pages.ts",
+          "source": "https://deepgridsemi.com/about/team",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "The reported roster spans silicon, perception, software and test.",
+          "implementation": "app/company-pages.ts",
+          "source": "https://deepgridsemi.com/about/team",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "The company reports specialist advisory relationships.",
+          "implementation": "app/company-pages.ts",
+          "source": "https://deepgridsemi.com/about/team",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Reported specialist roles describe the intended manufacturing chain.",
+          "implementation": "app/company-pages.ts",
+          "source": "https://deepgridsemi.com/about/team",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Implication and next decision",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Unverified headcounts, awards without issuer evidence, traction counts, guarantees and current contract implications.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "recognition",
+      "route": "/about/recognition",
+      "bluf": "Recognition is context. Engineering evidence decides readiness.",
+      "audience": "Company diligence",
+      "decision": "The retained company record includes photographs attributed to TiE50 Hyderabad. Awards and event participation do not establish silicon performance, customer adoption, qualification or delivery.",
+      "tension": "Company-reported context cannot establish current contracts, qualification or device performance.",
+      "sections": [
+        {
+          "title": "The retained record is a company-attributed event appearance.",
+          "implementation": "app/company-pages.ts",
+          "source": "https://deepgridsemi.com/about/achievements",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Answer and context",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Company-provided TiE50 Hyderabad photographs.",
+          "implementation": "app/company-pages.ts",
+          "source": "https://deepgridsemi.com/about/achievements",
+          "action": "Read the section in its stated evidence scope.",
+          "role": "Proof, constraint or evidence gate",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        },
+        {
+          "title": "Judge the engineering on its published evidence.",
+          "implementation": "app/company-pages.ts",
+          "source": "site",
+          "action": "Review the evidence; Open source documents",
+          "role": "Implication and next decision",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Unverified headcounts, awards without issuer evidence, traction counts, guarantees and current contract implications.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "company",
+      "route": "/company",
+      "bluf": "Shared digital engineering does not remove socket-specific physics or evidence gates.",
+      "audience": "Equipment-maker and diligence",
+      "decision": "Agree a system-specific evaluation with explicit stop and qualification conditions.",
+      "tension": "Reusable IP and a proposed procurement route do not establish demand or qualified supply.",
+      "sections": [
+        {
+          "title": "Build the silicon around the equipment.",
+          "implementation": "app/company/page.tsx",
+          "role": "Answer and context",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Agree a system-specific evaluation with explicit stop and qualification conditions.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "What travels between products, and what does not.",
+          "implementation": "app/company/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Agree a system-specific evaluation with explicit stop and qualification conditions.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "One reference platform. Ten scoped architectures.",
+          "implementation": "app/company/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Agree a system-specific evaluation with explicit stop and qualification conditions.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Silicon reaches the customer inside a system.",
+          "implementation": "app/company/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Agree a system-specific evaluation with explicit stop and qualification conditions.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "A development method with evidence gates.",
+          "implementation": "app/company/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Agree a system-specific evaluation with explicit stop and qualification conditions.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Two roadmaps. Explicit stop rules.",
+          "implementation": "app/company/page.tsx",
+          "role": "Proof, constraint or evidence gate",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Agree a system-specific evaluation with explicit stop and qualification conditions.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        },
+        {
+          "title": "Discuss the system and the evidence it needs.",
+          "implementation": "app/company/page.tsx",
+          "role": "Implication and next decision",
+          "source": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+          "action": "Agree a system-specific evaluation with explicit stop and qualification conditions.",
+          "visual": "Editorial proof, source-linked interaction or source-backed storyboard; reduced-motion reading remains complete."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    },
+    {
+      "id": "contact",
+      "route": "/contact",
+      "bluf": "Bring the system, the constraint and the next evidence gate.",
+      "audience": "Evaluation owner",
+      "decision": "Tell us the equipment job, voltage and interfaces, timing, environmental conditions and intended safe state. Name the evidence you need to make the next decision.",
+      "tension": "Evidence and operating constraints must accompany the enquiry.",
+      "sections": [
+        {
+          "title": "Compose a scoped technical enquiry in your mail application.",
+          "implementation": "app/company-pages.ts",
+          "source": "https://deepgridsemi.com/contact",
+          "action": "Provide constraints and compose an email; no server-side submission.",
+          "role": "Answer and context",
+          "visual": "Editorial section, attributed images, responsibilities or system constraints."
+        }
+      ],
+      "primarySources": "SKU Architecture Compendium (Technical Annex v3); Mature-Node Silicon System Architecture; claims.ts",
+      "cuts": "Any conclusion that transfers DG32 results across the portfolio or treats plans and estimates as measured silicon.",
+      "rebuild": "Retain each technical value and named source. Use the listed assertions as visible section headings; keep maturity next to the decision. Use the architecture-to-everything storyboard for architectural explanation, not a recreated native diagram. Preserve source files and base-aware links."
+    }
+  ]
+}

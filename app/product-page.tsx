@@ -3,8 +3,8 @@
  *  product-pages-data.ts (authored from the annex), maturity and boundary from portfolio-story-data.ts,
  *  status and evidence from applications-story-data.ts, so every surface states the same thing. */
 import {ArrowRight, ArrowUpRight, FileText} from 'lucide-react';
-import {Sec, DataTable, NativeDiagram} from './detail';
-import {nativeDiagrams} from './sku-diagram-notes';
+import {Sec, DataTable} from './detail';
+import {ArchitectureStoryboard,type ArchitectureStoryId} from './architecture-storyboard';
 import {productDiagrams, nbspUnits} from './diagram-notes';
 import {productBySlug, productSlugById, type ProductPage} from './product-pages-data';
 import {portfolioParts} from './portfolio-story-data';
@@ -31,7 +31,7 @@ export default function ProductPageView({slug}: {slug: string}) {
   const doc = groundedDocuments.find(d => d.id === record.evidenceDoc)!;
   const annex = groundedDocuments.find(d => d.id === 'doc2')!;
   const dg = productDiagrams[p.id];
-  const nd = nativeDiagrams[p.id === 'sku4' ? 'lite' : p.id];
+  const storyboardId:ArchitectureStoryId=p.id === 'sku4' ? 'dg32-lite' : p.id === 'd100' ? 'd100' : p.slug as ArchitectureStoryId;
   const fits = areas.flatMap(a => a.items.filter(i => i.product === p.id).map(i => ({area: a, role: i.role})));
   const sheet = `Sheet ${String(record.sheet).padStart(2, '0')}`;
   const contact = url('/contact') + '?part=' + encodeURIComponent(`${part.code} ${part.name}`);
@@ -56,7 +56,7 @@ export default function ProductPageView({slug}: {slug: string}) {
       </header>
 
       <section id="pp-physics" className="pp-sec">
-        <Sec kicker="WHY ITS OWN SILICON" title="The physical requirement sets the process." copy="Each requirement below is a property of the socket, not a preference; the right-hand column is what it forces on the silicon.">
+        <Sec kicker="WHY ITS OWN SILICON" title={p.story.physics} copy="Each requirement below is a property of the socket, not a preference; the right-hand column is what it forces on the silicon.">
           <ol className="pp-physics">
             {p.physics.map((x, i) => <li key={i}><p className="pp-req">{x.requirement}</p><ArrowRight size={16} aria-hidden="true"/><p>{x.consequence}</p></li>)}
           </ol>
@@ -64,10 +64,10 @@ export default function ProductPageView({slug}: {slug: string}) {
       </section>
 
       <section id="pp-inside" className="pp-sec">
-        <Sec kicker="INSIDE THE PART" title="From signal in to signal out." copy={p.blockNote}>
-          {dg && nd ? <>
+        <Sec kicker="INSIDE THE PART" title={p.story.blocks} copy={p.blockNote}>
+          {dg ? <>
             {dg.note && <p className="pp-note">{nbspUnits(dg.note)}</p>}
-            <NativeDiagram data={nd} title={dg.title} svg={dg.src} html={`/downloads/${p.id === 'sku4' ? 'dg32-lite' : p.slug}-workflow.html`} drawio={dg.drawio} guide={dg.guide} caption={dg.caption} notes={dg.notes}/>
+            <ArchitectureStoryboard id={storyboardId}/>
             <p className="pp-note">Architecture from the annex, {sheet}. A functional view, not a floorplan.</p>
           </> : <>
             <ol className="pp-blocks" aria-label={`${part.code} block architecture`}>
@@ -84,7 +84,7 @@ export default function ProductPageView({slug}: {slug: string}) {
       </section>
 
       <section id="pp-specs" className="pp-sec">
-        <Sec kicker="SPECIFICATION" title="Architecture targets, not datasheet values." copy={`Every figure is a design target stated in the Technical Annex, ${sheet}. None is a measurement of manufactured silicon.`}>
+        <Sec kicker="SPECIFICATION" title={p.story.specs} copy={`Every figure is a design target stated in the Technical Annex, ${sheet}. None is a measurement of manufactured silicon.`}>
           <DataTable caption={`${part.code} architecture targets (Annex v3, ${sheet})`} head={['Parameter', 'Target']} rows={p.specs}/>
           <div className="pp-toward">
             <p className="dr-kicker">DESIGNED TOWARD</p>
@@ -96,7 +96,7 @@ export default function ProductPageView({slug}: {slug: string}) {
       </section>
 
       <section id="pp-questions" className="pp-sec">
-        <Sec kicker="EVALUATION QUESTIONS" title="What an evaluator should ask first." copy={`The annex asks these of its own design. Each is a question silicon, test or layout has to answer before ${part.code} can be relied on.`}>
+        <Sec kicker="EVALUATION QUESTIONS" title={p.story.questions} copy={`The annex asks these of its own design. Each is a question silicon, test or layout has to answer before ${part.code} can be relied on.`}>
           <ol className="pp-questions">
             {p.questions.map(q => <li key={q.title}><h3>{q.title}</h3><p>{q.question}</p></li>)}
           </ol>
@@ -104,7 +104,7 @@ export default function ProductPageView({slug}: {slug: string}) {
       </section>
 
       <section id="pp-fit" className="pp-sec">
-        <Sec kicker="WHERE IT FITS" title="The systems it goes into, and the parts beside it." copy={part.evaluation}>
+        <Sec kicker="WHERE IT FITS" title={p.story.conclusion} copy={part.evaluation}>
           <div className="pp-fit">
             <ul className="pp-areas">
               {fits.map(f => (
@@ -160,7 +160,7 @@ export default function ProductPageView({slug}: {slug: string}) {
 
       <section className="pp-close">
         <h2>Bring the socket. We will tell you what {part.code} has to prove for it.</h2>
-        <p>Send the platform, voltage and power environment, interfaces and qualification needs. The reply names what is architecture, what is evidence and what would have to be tested.</p>
+        <p>{p.story.evaluationAsk} The reply names the existing evidence and the tests still required.</p>
         <div className="pp-actions">
           <a className="primary" href={contact}>Discuss {part.code} <ArrowUpRight size={16} aria-hidden="true"/></a>
           <a className="text-link" href={url('/products')}>Compare all ten parts <ArrowUpRight size={15} aria-hidden="true"/></a>

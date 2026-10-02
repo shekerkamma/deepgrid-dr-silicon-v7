@@ -5,6 +5,7 @@ import {ArrowUpRight, ArrowRight, ArrowLeft, Menu, X} from 'lucide-react';
 import {byId, nextRoute, prevRoute, resolveTarget, url, type RouteId} from './routes';
 
 import {MegaNav} from './mega-nav';
+import {ReadingCompass} from './reading-compass';
 import {useReveal, useScrollVars} from './motion';
 import {useDraw, useRail} from './devices';
 
@@ -75,8 +76,8 @@ export function Shell({
       <header className="topbar">
         <a className="brand" href={href('/')} aria-label="DeepGrid Semi home"><Brand/></a>
         <div className="topline">
-          <span>DG32 · LOCKSTEP RISC-V MOTOR-CONTROL SILICON</span>
-          <span className="status-dot">FIRST SILICON · SEP 2026</span>
+          <span>SILICON FOR PHYSICAL SYSTEMS</span>
+          <span className="status-dot">Architecture portfolio · pre-silicon evidence</span>
         </div>
         <a className="contact-link" href={href('/contact')}>Discuss your application <ArrowUpRight size={17}/></a>
         <button ref={menuButton} className="mobile-menu" aria-label="Open navigation" aria-expanded={menu} aria-controls="mobile-navigation" onClick={() => setMenu(true)}>
@@ -110,6 +111,7 @@ export function Shell({
             ))}
           </nav>
         )}
+        <ReadingCompass route={route}/>
         {children}
 
 
@@ -134,7 +136,7 @@ export function Shell({
       <footer className="footer">
         <div className="footer-top">
           <a className="brand" href={href('/')} aria-label="DeepGrid Semi home"><Brand/></a>
-          <h2>Safety in the core.<br/><em>Control in silicon.</em></h2>
+          <h2>Find the silicon job.<br/>Define the next evidence.</h2>
           <a className="text-link" href="https://deepgridsemi.com" target="_blank" rel="noreferrer">
             deepgridsemi.com <ArrowUpRight size={20}/>
           </a>
@@ -143,7 +145,7 @@ export function Shell({
           <span>© 2026 DEEPGRID SEMI PVT LTD</span>
           <span>HYDERABAD · INDIA</span>
           <span>PRE-SILICON · DESIGN VALUES, NOT MEASUREMENTS</span>
-          <a href={href('/resources')}>Documents &amp; media ↗</a>
+          <a href={href('/resources')}>Read the engineering sources ↗</a>
         </div>
       </footer>
     </div>

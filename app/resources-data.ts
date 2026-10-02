@@ -61,18 +61,18 @@ export const V = {
 
 // On the DG32 site the silicon group, which holds the DG32 videos, comes first.
 export const videoGroups: VideoGroup[] = [
-  { title: 'Silicon & Architecture', lede: 'Go inside our AI accelerators: chip floorplanning, compute engines, and the silicon design behind ultra-low-power inference at the edge.', from: REF + ' + ' + YT,
+  { title: 'Layout walkthroughs explain the design and its limits.', lede: 'Inspect layout and architecture walkthroughs. These recordings show design work, not manufactured-silicon power or inference measurements.', from: REF + ' + ' + YT,
     videos: [V.dieVoice, V.anatomy, V.lockstep, V.gdsii, V.wrapalign, V.latchup, V.dieSilent, V.softmax] },
-  { title: 'Autonomous Driving: ADAS', lede: 'From Indian city streets to benchmark datasets: real-world road tests plus the end-to-end perception, prediction, and planning stack that powers them on CARLA, Waymo, and nuScenes.', from: REF,
+  { title: 'ADAS recordings show their specific road or simulator setup.', lede: 'From Indian city streets to benchmark datasets: real-world road tests plus the end-to-end perception, prediction, and planning stack that powers them on CARLA, Waymo, and nuScenes.', from: REF,
     videos: [V.hitech, V.dgridAdas, V.scen2, V.test3, V.modelOut, V.nuscenes, V.waymo, V.carla] },
-  { title: 'Smart Mirror: D-Mirror', lede: 'The AD0 Smart Mirror (D-Mirror) turns the rear-view mirror into a live ADAS display: thermal vision that sees through glare, with real-time driver and hazard alerts.', from: REF,
+  { title: 'D-Mirror demonstrations show alerts on the mirror display.', lede: 'The AD0 Smart Mirror (D-Mirror) turns the rear-view mirror into a live ADAS display: thermal vision that sees through glare, with real-time driver and hazard alerts.', from: REF,
     videos: [V.mirrorThermal, V.mirrorDemo, V.mirrorAlerts] },
-  { title: 'Autonomous Mobility: D-Drive', lede: "Field tests of the D-Drive autonomous mobility platform: follow-me navigation, bird’s-eye-view perception, and autonomous steering control.", from: REF + ' + ' + YT,
+  { title: 'D-Drive recordings expose individual mobility functions.', lede: "Field tests of the D-Drive autonomous mobility platform: follow-me navigation, bird’s-eye-view perception, and autonomous steering control.", from: REF + ' + ' + YT,
     videos: [V.followMe, V.turn360, V.bev, V.steering, V.slam] },
-  { title: 'Humanoid: Apexgrid', lede: 'The Apexgrid humanoid: joint calibration, balance and first movements.', from: YT,
+  { title: 'Apexgrid recordings show calibration and early movement.', lede: 'The Apexgrid humanoid: joint calibration, balance and first movements.', from: YT,
     videos: [V.apexYoga] },
-  { title: 'Company', lede: 'The founder with T-Hub, and the company website.', from: YT, videos: [V.thub, V.site] },
-  { title: 'Engineering tools', lede: 'The in-house tools behind the boards.', from: YT, videos: [V.pcb] },
+  { title: 'Company recordings provide reported context.', lede: 'The founder with T-Hub, and the company website.', from: YT, videos: [V.thub, V.site] },
+  { title: 'Tool demonstrations show the board-design workflow.', lede: 'The in-house tools behind the boards.', from: YT, videos: [V.pcb] },
 ];
 export const shortGroups: VideoGroup[] = [
   { title: 'Apexgrid humanoid', from: YT, videos: [V.apexCal, V.apexSalute, V.apexFast, V.apexLawn, V.apexLawn2, V.apexArms] },
@@ -83,7 +83,7 @@ export const shortGroups: VideoGroup[] = [
 const D = url('/downloads/docs/');
 const ASK = (what: string) => 'mailto:group@deepgrid.in?subject=' + encodeURIComponent('Document request: ' + what);
 export const docGroups: DocGroup[] = [
-  { title: 'Product Datasheets', lede: 'Detailed specifications and technical documentation for all our AI accelerators',
+  { title: 'Preliminary datasheets define the documented design.', lede: 'Published preliminary datasheets and portfolio architecture sheets; other titles are on-request enquiries.',
     items: [
       { title: 'DG32-LITE preliminary datasheet', note: 'Lockstep RISC-V motor-control SoC on SkyWater sky130A, 64-pin QFN.', href: D + 'deepgrid-dg32-lite-preliminary-datasheet.pdf', meta: 'PDF · 12 pages' },
       { title: 'DG32-2DOM preliminary datasheet', note: 'DG32-LITE plus an INT8 attention accelerator on a second clock.', href: D + 'deepgrid-dg32-2dom-preliminary-datasheet.pdf', meta: 'PDF · 12 pages' },
@@ -91,19 +91,19 @@ export const docGroups: DocGroup[] = [
       { title: 'SKU architecture compendium, technical annex v3', note: 'Nine SKU architecture sheets plus the D100 drone SoC and the SDV platform.', href: D + 'deepgrid-sku-compendium-technical-annex-v3.pdf', meta: 'PDF · 14 pages · 4.8 MB' },
       { title: 'DG-A100 ADAS SoC' }, { title: 'DG-R100 Radar SoC' }, { title: 'DG-S100 SDV Controller' }, { title: 'DG-T100 Transformer NPU' },
     ] },
-  { title: 'SDK Documentation', lede: 'Complete developer guides and API references for DGrid SDK',
+  { title: 'SDK availability must be confirmed for the intended hardware.', lede: 'SDK guides are on request. Availability and supported hardware must be confirmed before integration.',
     items: [{ title: 'Getting Started' }, { title: 'API Reference' }, { title: 'Code Examples' }, { title: 'Best Practices' }] },
-  { title: 'Technical Whitepapers', lede: 'In-depth research papers and technical analyses',
+  { title: 'Whitepapers explain the architecture and planning assumptions.', lede: 'In-depth research papers and technical analyses',
     items: [
       { title: 'Mature-node silicon for India’s defence and industrial base', note: 'Plain-language edition, v3.', href: D + 'deepgrid-mature-node-silicon-master-whitepaper-v3.pdf', meta: 'PDF · 71 pages · 5.4 MB' },
       { title: 'DG32-2DOM system architecture: block definition', note: 'Per-block architecture of the attention variant.', href: D + 'deepgrid-dg32-2dom-system-architecture.pdf', meta: 'PDF · 24 pages' },
       { title: 'DG32-LITE base variant: thirty use cases and models', note: 'The AI tasks the part runs with no attention engine in the path.', href: D + 'deepgrid-dg32-ai-30-use-cases.pdf', meta: 'PDF · 12 pages' },
       { title: 'AI Acceleration Architecture' }, { title: 'Edge Computing Performance' }, { title: 'Power Efficiency Studies' },
     ] },
-  { title: 'Integration Guides', lede: 'Step-by-step guides for integrating our solutions',
+  { title: 'Integration guidance is scoped on request.', lede: 'Request the board, software and configuration guidance for your intended part; these titles are not published guides.',
     items: [{ title: 'Hardware Integration' }, { title: 'Software Setup' }, { title: 'System Configuration' }, { title: 'Troubleshooting' }] },
-  { title: 'Performance Benchmarks', lede: 'Real-world performance metrics and comparison studies',
+  { title: 'A performance claim needs its measurement method.', lede: 'Trace each result to its method: simulation, implementation or estimate. Manufactured-silicon benchmarks are not implied.',
     items: [{ title: 'ADAS Benchmarks', note: 'How each DG32 figure was obtained, and which are not yet measured, is on Evidence.', href: '/evidence' }, { title: 'Transformer Performance' }, { title: 'Power Consumption Analysis' }] },
-  { title: 'Software Downloads', lede: 'Latest drivers, tools, and development kits',
+  { title: 'Software access is an enquiry until a release is provided.', lede: 'Enquire about drivers, firmware and development kits; no public SDK release is supplied here.',
     items: [{ title: 'DGrid SDK' }, { title: 'Drivers & Firmware' }, { title: 'Development Tools' }, { title: 'Sample Projects' }] },
 ].map((g) => ({ ...g, items: g.items.map((d) => (d.href ? d : { ...d, href: ASK(d.title), meta: 'On request' })) }));

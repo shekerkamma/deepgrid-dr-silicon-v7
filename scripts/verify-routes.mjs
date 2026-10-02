@@ -82,6 +82,7 @@ for (const [width, reduced] of [[1440, false], [390, false], [390, true]]) {
       stillHidden: [...document.querySelectorAll('[data-rv]')].filter(e => parseFloat(getComputedStyle(e).opacity) < 0.99).length,
       overflowX: document.documentElement.scrollWidth > document.documentElement.clientWidth + 1,
       title: document.title,
+      emptyChapterLabels: [...document.querySelectorAll('.v7-chapter-guide option')].filter(o=>!o.textContent.trim()).length,
       nav: document.querySelectorAll('.main-nav a').length,
       // WCAG 2.5.8: interactive targets need 24x24 CSS px. Checked at phone width, where
       // a control tuned for a pointer is most likely to be too small for a thumb.
@@ -113,6 +114,7 @@ for (const [width, reduced] of [[1440, false], [390, false], [390, true]]) {
     if (d.neverRevealed) problems.push(`${d.neverRevealed} block(s) never got rv-in`);
     if (d.stillHidden) problems.push(`${d.stillHidden} block(s) still transparent after settling`);
     if (d.overflowX) problems.push('horizontal overflow');
+    if (d.emptyChapterLabels) problems.push('empty reading-guide chapter label');
     if (!d.nav) problems.push('no primary nav');
     if (width === 390 && d.smallTargets.length) problems.push('tap targets under 24px: ' + d.smallTargets.join(', '));
     if (errors.length > before) problems.push(errors.slice(before, before + 2).join(' | '));

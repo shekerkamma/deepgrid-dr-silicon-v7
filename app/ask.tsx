@@ -291,8 +291,8 @@ export default function AskDeepGrid({go}: {go: (hash: string) => void}) {
   return (
     <section className="page-wrap dr-ask-section">
       <SectionHead 
-        title="Ask about DG32, and every answer names its source" 
-        copy="Ask about the lockstep core, the control loop, the package, the portfolio or the supply chain. Each answer cites the document and section it comes from, with the PDF one click away, so you can check it rather than take it on trust."
+        title="Find the source, then check whether the claim supports your decision."
+        copy="Ask about the lockstep core, the control loop, the package, the portfolio or the supply chain. Use the indexed catalogue to find the document and section. Check the primary publication and corrective claim register before treating retrieved text as measured performance or qualification."
       />
 
       {/* Top View Selector Strip */}
@@ -302,7 +302,7 @@ export default function AskDeepGrid({go}: {go: (hash: string) => void}) {
             className={`dr-ask-toggle-btn ${activeView === 'council' ? 'active' : ''}`}
             aria-pressed={activeView === 'council'}
             onClick={() => setActiveView('council')}
-            title="Direct Grounded Answers with Official Citations"
+            title="Find cited source passages"
           >
             <BookOpen size={16} /> <span>Grounded Answers</span>
           </button>
@@ -318,7 +318,7 @@ export default function AskDeepGrid({go}: {go: (hash: string) => void}) {
             className={`dr-ask-toggle-btn ${activeView === 'cards' ? 'active' : ''}`}
             aria-pressed={activeView === 'cards'}
             onClick={() => setActiveView('cards')}
-            title="Full Catalog Specification Dossiers"
+            title="Browse indexed architecture records"
           >
             <LayoutGrid size={16} /> <span>Specification Dossiers ({results.length})</span>
           </button>

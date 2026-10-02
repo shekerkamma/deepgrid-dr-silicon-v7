@@ -5,9 +5,8 @@ import Silicon from './silicon';
 import {blocks} from './content';
 import {tabIndexFor, tablistKeys} from './tablist';
 import {SceneFigure} from './scene-figure';
-import {Eyebrow,Sec,ExplainedGrid,Steps,Flows,DataTable,Callout,Stats,NativeDiagram} from './detail';
-import {nativeDiagrams} from './sku-diagram-notes';
-import {diagramNotes} from './diagram-notes';
+import {Eyebrow,Sec,ExplainedGrid,Steps,Flows,DataTable,Callout,Stats} from './detail';
+import {ArchitectureStoryboard} from './architecture-storyboard';
 import {litePremises,liteDecisions,groupMembers,liteFlows,faultPath,isolationInvariant,domPremises,enginePipeline,engineParts,engineCost,engineLimits,domFlows,domTiming,domDecisions,tapeinStats,tapeinSections,padPlan,signoffGates,whyConnectivityGate} from './detail-content';
 
 type Update=(changes:Record<string,string|undefined>)=>void;
@@ -51,8 +50,7 @@ function Lite({block,reduced,setReduced,exploded,setExploded,update,go}:Props){
    <DataTable caption="Design premises and what they set" head={['Constraint','What it means','What the design does']} rows={litePremises} wide/>
   </Sec>
 
-  <NativeDiagram data={nativeDiagrams['lite']} title="DG32-LITE system architecture" svg="/diagrams/dg32-lite-architecture.svg" html="/downloads/dg32-lite-workflow.html" drawio="/downloads/dg32-lite-architecture.drawio" guide="/downloads/dg32-lite-architecture-guide.md" notes={diagramNotes.lite}
-   caption={<>Numbered markers trace one current-control loop: ① the PWM fires the ADC sample, ② phase current goes to the CORDIC, ③ the transforms go to the CPU, ④ the PI output sets the PWM duty, ⑤ gate signals leave for the gate driver. F marks the fault latch, whose FAULT_N trips the bridge in hardware.</>}/>
+  <ArchitectureStoryboard id="dg32-lite"/>
 
   <Sec kicker="THE BLOCK GROUPS & ROLES" title="Six block groups share one deterministic 50 MHz bus," em="and each exists because something on the die could not be left to firmware." copy="Select a group to highlight it on the illustrative die and read what every block inside it does, and why it was built that way.">
    <div className="architecture"><div className="architecture-stage"><div className="stage-top"><span className="mono">DG32-LITE / 3D SILICON MODEL</span><button aria-pressed={reduced} onClick={()=>setReduced(!reduced)} className="small-button">Motion {reduced?'off':'on'}</button></div><Silicon variant="lite" selected={block} exploded={exploded} reduced={reduced} label={'Interactive 3D model of DG32-LITE with the '+g.name+' group highlighted. Drag to rotate; use the block list for details.'}/><div className="stage-bottom"><span>DRAG TO ROTATE · NOT A MASK LAYOUT</span><button className="small-button" onClick={()=>setExploded(!exploded)} aria-expanded={exploded} aria-label={exploded?'Seat the die':'Lift the die'}><Layers size={14} aria-hidden="true"/>{exploded?'Seat the die':'Lift the die'}</button></div></div>
@@ -89,8 +87,7 @@ function Dom({go,update,reduced,setReduced,exploded,setExploded}:Props){
    <div className="dr-links"><button className="text-link" onClick={()=>go('library?pkg=2dom')}>Architecture deck and film <ArrowUpRight size={16}/></button><button className="text-link" onClick={()=>go('library?pkg=2dom-datasheet')}>Datasheet deck and film <ArrowUpRight size={16}/></button></div>
   </Intro>
   <Stats items={[['114 MHz','COMPUTE CLOCK'],['50 MHz','CONTROL DOMAIN'],['Bit-exact','TO THE SOFTWARE MODEL'],['400','KEYS PER HEAD'],['~3,242','CYCLES PER ROW, ANALYTIC'],['0','PADS ADDED']]}/>
-  <NativeDiagram data={nativeDiagrams['2dom']} title="DG32-2DOM system architecture" svg="/diagrams/dg32-2dom-architecture.svg" html="/downloads/dg32-2dom-workflow.html" drawio="/downloads/dg32-2dom-architecture.drawio" guide="/downloads/dg32-2dom-architecture-guide.md" notes={diagramNotes['2dom']}
-   caption={<>One attention kick: ① the CPU programs the shapes through the lite bridge, ② keys and values load once through the burst read bridge, ③ the INT8 output writes back through the burst write bridge, ④ a done interrupt reaches both cores. The engine reaches memory only through the bridges.</>}/>
+  <ArchitectureStoryboard id="dg32-2dom"/>
 
   <Sec kicker="DUAL-DOMAIN CONSTRAINTS" title="Four physical findings forced a second clock domain and a second die," em="including an INT4 output that came out identically zero." copy="Each came from hardening the design, and each one set the variant’s shape.">
    <DataTable caption="What was found and what the design does about it" head={['Finding','What it means','What the design does']} rows={domPremises} wide/>

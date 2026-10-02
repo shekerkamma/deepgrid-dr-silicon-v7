@@ -3,10 +3,9 @@
 // deepgridsemi.com is final where it overlaps the showcase; its template filler and unsourced
 // claims are left out. Every section names the reference page it came from (`from`).
 //
-// Policy (user, 2026-09-26): include deepgridsemi.com's content as the site states it, in its own
-// wording. Two exceptions, both links rather than content: the SDK page's "Order Metis!" button (it
-// sells Axelera AI's board) and its GitHub download (no repository exists), replaced by a request for
-// SDK access. Showcase additions are marked `from: 'showcase …'`.
+// v7 narrative policy: preserve named company-reported biographies and source documents;
+// remove unsupported headcounts, award issuers, traction figures and guarantees. Explicitly
+// distinguish published downloads, on-request resources and pre-silicon architecture scope.
 
 import { url } from './routes';
 import { areas, products } from './applications-story-data';
@@ -51,52 +50,38 @@ const img = (p: string) => url('/images/' + p);
 export const companyPages: CompanyPage[] = [
   {
     id: 'story', menu: 'about', path: 'about', label: 'Our story',
-    kicker: 'About Us', title: 'A semiconductor company for edge AI, in Hyderabad',
-    lede: 'Our mission is to provide businesses with cutting-edge AI acceleration technology to thrive in today’s intelligent systems market.',
+    kicker: 'Company · purpose and evidence', title: 'Build edge intelligence around the equipment’s physical job.',
+    lede: 'DeepGrid’s portfolio starts with motion, power, sensing, interfaces and safety. DG32 is the detailed pre-silicon engineering case; each wider architecture needs its own implementation and qualification evidence.',
     sections: [
-      { kind: 'stats', from: REF + '/about/story', items: [['2020', 'Founded'], ['28', 'Team Members'], ['4', 'Product Lines']] },
-      { kind: 'split', title: 'Who We Are', from: REF + '/about/story',
+      { kind: 'split', title: 'The equipment defines the silicon.', from: 'showcase: Mature-Node Silicon System Architecture',
         paras: [
-          'Deepgrid Semi is a pioneering semiconductor company specializing in AI acceleration solutions for edge computing. Founded by a team of industry veterans with decades of combined experience in chip design, AI, and autonomous systems, we are at the forefront of the AI revolution.',
-          'Our headquarters in Hyderabad, India, serves as a hub of innovation where world-class engineers and researchers collaborate to push the boundaries of what’s possible in AI hardware acceleration.',
-          'We focus on delivering specialized System-on-Chip (SoC) solutions that bring datacenter-class AI performance to edge devices, enabling real-time intelligence in autonomous vehicles, robotics, industrial automation, and smart infrastructure.',
-        ],
-        image: img('scenes/company-wafer-1536.webp'), imageAlt: 'Illustration of a 200 mm silicon wafer covered in identical small dies, lit in copper' },
-      { kind: 'cards', title: 'Company Strategy', cols: 3, from: REF + '/about/story',
+          'A motor, a meter and a vehicle zone need different voltages, interfaces and fault responses. DeepGrid’s mature-node strategy starts with those constraints rather than a single accelerator offered for every system.',
+          'The published portfolio comprises nine core SKU architectures and D100. A separate software-defined-vehicle reference platform describes how functions can be organised; it is not another available chip.',
+          'DG32-LITE provides the most detailed engineering trail on this site: simulation, physical implementation, control-loop budgets and preliminary package documentation. Manufactured-silicon measurements and product qualification remain separate gates.',
+        ], image: img('scenes/company-wafer-1536.webp'), imageAlt: 'Concept illustration of a silicon wafer, lit in copper' },
+      { kind: 'cards', title: 'Three decisions shape the development programme.', cols: 3, from: 'showcase: Mature-Node Silicon System Architecture',
         items: [
-          { title: 'Our Philosophy', text: 'Our philosophy is simple: innovate with a purpose. We don’t just create technology for the sake of innovation; we aim to solve real-world problems that impact road safety and mobility. Our approach is focused on delivering practical, high-performance solutions that enhance driver awareness, anticipate potential hazards, and respond rapidly to keep you safe.' },
-          { title: 'Our Vision', text: 'Towards ZERO Fatalities on Roads. We envision a world where roads are safer for everyone, where AI-powered automotive technology significantly reduces traffic accidents. By equipping vehicles with state-of-the-art ADAS solutions, we aim to make this vision a reality. Looking back from 2040, we should proudly declare that there used to be so many fatalities on our roads, but now we have achieved zero.' },
-          { title: 'Our Mission', text: 'Our mission is to push the boundaries of automotive technology by developing intelligent chipsets that provide predictive safety features and real-time assistance. We aim to set new benchmarks in the ADAS industry by making vehicles smarter, more responsive, and capable of preventing accidents before they happen.' },
+          { title: 'Start with a named system', text: 'Agree the voltage, signal quality, timing, environmental conditions and safe state before choosing a chip architecture.' },
+          { title: 'Reuse the digital foundation', text: 'Share processor building blocks and engineering methods where they fit. Analog, high-voltage, RF and screening requirements remain specific to each socket.' },
+          { title: 'Advance on evidence', text: 'Separate design intent, simulation, implementation, bench measurements and qualification. A roadmap or concept image cannot establish readiness.' },
         ] },
-      { kind: 'cards', title: 'Our Values', cols: 4, from: REF + '/about/story',
+      { kind: 'steps', title: 'A specification reaches a customer through evidence gates.', from: 'showcase: Mature-Node Silicon System Architecture',
         items: [
-          { title: 'Innovation', text: 'We are dedicated to continuously exploring new technologies and methodologies to enhance automotive safety.' },
-          { title: 'Safety', text: 'Our core focus is on keeping drivers and passengers safe, making it the foundation of all our developments.' },
-          { title: 'Quality', text: 'We deliver reliable, high-performance technology designed to meet stringent automotive standards.' },
-          { title: 'Collaboration', text: 'We work closely with leading automotive manufacturers and partners to bring the best ADAS solutions to the market.' },
+          { title: 'Define the requirement', text: 'Name the system job, electrical boundaries, failure conditions and intended safe state.' },
+          { title: 'Inspect the implementation', text: 'Review architecture, verification and physical implementation records with their limitations.' },
+          { title: 'Measure the device', text: 'Bring-up and characterisation require identified manufactured parts and bench records.' },
+          { title: 'Qualify the equipment fit', text: 'Agree the application-specific reliability, safety and approval evidence before adoption.' },
         ] },
-      { kind: 'split', title: 'From Concept to Implementation', from: REF + '/about/story',
-        paras: [
-          'At DeepGrid Semi, we take pride in turning innovative concepts into reality. Our development process involves rigorous research, extensive testing, and collaboration with industry leaders to ensure our hardware & software solutions are not only technologically advanced but also practical and effective in real-world applications.',
-          'We aim to deliver products that address the most challenging driving conditions, such as low visibility and unpredictable obstacles, with features like radar-based assistance and blind-spot detection.',
-        ] },
-      { kind: 'steps', title: 'How an idea becomes a product', from: REF + '/about/story',
-        items: [
-          { title: 'Rigorous Research', text: 'Extensive R&D for cutting-edge solutions' },
-          { title: 'Extensive Testing', text: 'Real-world validation and optimization' },
-          { title: 'Industry Collaboration', text: 'Partnering with leading manufacturers' },
-          { title: 'Practical Solutions', text: 'Real-world effectiveness guaranteed' },
-        ] },
-      { kind: 'cta', title: 'Join Us on Our Journey', lede: 'Whether you’re looking to partner with us, join our team, or learn more about our technology, we’d love to hear from you.', from: REF + '/about/story',
-        actions: [ { label: 'Contact Us', href: 'contact', primary: true }, { label: 'Leadership and team', href: 'about/team' } ] },
+      { kind: 'cta', title: 'Choose the system you want to evaluate.', lede: 'Start with the application, inspect its architecture and bring the evidence your equipment needs.', from: 'site',
+        actions: [{ label: 'Find the application', href: '/applications', primary: true }, { label: 'Review the portfolio strategy', href: '/company' }, { label: 'Meet the reported team', href: '/about/team' }] },
     ],
   },
   {
     id: 'team', menu: 'about', path: 'about/team', label: 'Leadership & team',
     kicker: 'About', title: 'Leadership and team',
-    lede: 'The founders, board, engineering organisation, advisors and the partners contracted for the silicon.',
+    lede: 'Company-reported leadership, engineering roles, advisors and specialist relationships. This roster identifies responsibilities; it does not establish headcount, current contracts or completed silicon.',
     sections: [
-      { kind: 'people', title: 'Leadership', from: REF + '/about/team',
+      { kind: 'people', title: 'Leadership connects the architecture to an equipment decision.', from: REF + '/about/team',
         people: [
           { name: 'Aravind Prasad G', role: 'Founder & Chief Executive Officer', initials: 'AP', photo: img('deepgridsemi/aravind.webp'),
             detail: 'B.Tech ECE, Bangalore University · Research Associate, IISc Bangalore (speech signal processing) · Stanford SDRM, 2007',
@@ -105,21 +90,20 @@ export const companyPages: CompanyPage[] = [
               'Commercial accountability across DeepGrid’s four business units: ADAS, defence, robotics and AI licensing.'] },
           { name: 'Ayaz Khan', role: 'Chief Technology Officer · Silicon architecture', initials: 'AK', detail: 'M.Sc. Physics, IIT Gandhinagar' },
         ] },
-      { kind: 'people', title: 'Board and officers', from: REF + '/about/team',
+      { kind: 'people', title: 'Commercial and governance roles support the engineering programme.', from: REF + '/about/team',
         people: [
           { name: 'Prashant Sadanand', role: 'Part-time Director · CMO', initials: 'PS', photo: img('deepgridsemi/prashanth.webp'), bio: ['Owns OEM go-to-market and commercial positioning across the ADAS product family.'] },
           { name: 'Jayesh Loya', role: 'Virtual CFO', initials: 'JL' },
           { name: 'Krishna Mohan R', role: 'Independent Director', initials: 'KM', bio: ['Twenty years in corporate governance as Senior Director at Citadel Group.'] },
         ] },
-      { kind: 'stats', from: REF + '/about/team', items: [['28', 'Engineers'], ['10', 'Silicon / hardware'], ['6', 'AI / perception'], ['7', 'Firmware / software'], ['5', 'Design, test, G&A']] },
-      { kind: 'roster', title: 'Our Team', lede: '28 engineers across four domains.', from: REF + '/about/team',
+      { kind: 'roster', title: 'The reported roster spans silicon, perception, software and test.', lede: 'Names and roles are reproduced from the company’s team record. Request a current organisation and responsibility matrix for diligence.', from: REF + '/about/team',
         groups: [
           { title: 'Silicon / Hardware', people: [['Arun Saathappan Sundaraam', 'Sr. Digital IC Design Engineer'], ['Koushik B', 'Sr. Digital IC Design Engineer'], ['Santu Sardar', 'Digital IC Engineer'], ['Chandana Pokala', 'Digital IC Engineer'], ['Shrivardhini Indla', 'Digital IC Engineer'], ['Siddhartha V. S. Bade', 'Digital IC Engineer'], ['Ananya Sindam', 'RTL Engineer'], ['Srikar Varma Penmetsa', 'RTL Engineer'], ['Haritha Palgunam', 'Silicon Verification'], ['Rajesh Hembram', 'Hardware Engineer']] },
           { title: 'AI / Perception', people: [['Aryaman Anil Kaprekar', 'ADAS Engineer · Perception Lead'], ['Vishista Reddy Mandala', 'AI Engineer'], ['S. Haemanth Ruban', 'AI Engineer'], ['Shankar Pathlavath', 'AI Engineer'], ['Rahul Aka', 'AI Firmware Engineer'], ['Kodali Paani Chowdary', 'Python Developer (Intern)']] },
           { title: 'Firmware / Software', people: [['Saiteja Jampula', 'Firmware Engineer'], ['Bhavagna Bathula', 'Firmware Engineer'], ['Srikar Panuganti', 'Software Dev Engineer'], ['Gopi Krishna Pulicharla', 'Software Dev Engineer'], ['Snigdha Mohapatra', 'Software Dev Engineer'], ['Govind Sarang', 'Backend Engineer'], ['Srinath Panuganti', 'Front-end Developer']] },
           { title: 'Design / Test / G&A', people: [['Rehan Ahmed Siddiqui', '3D Design & Hardware PCB'], ['Madhu Babu Mallappagari', 'UI & Graphic Designer'], ['Sai Sreekar Tirumala', 'Manual Testing'], ['R. K. Goverdhan', 'G&A / Support'], ['A. Govardhan', 'G&A / Support']] },
         ] },
-      { kind: 'people', title: 'Advisors', from: REF + '/about/team',
+      { kind: 'people', title: 'The company reports specialist advisory relationships.', from: REF + '/about/team',
         people: [
           { name: 'Venkat Simhadri', role: 'Strategic advisor', initials: 'VS', detail: 'Ex-CEO, MosChip Technologies', bio: ['Semiconductor commercialisation, fabless go-to-market and listed-company governance; advises on the SoC roadmap, OEM design-in and capital-markets readiness.'] },
           { name: 'Emani Capital Advisory', role: 'Financial advisor · placement agent', initials: 'EC', detail: 'Sai Emani · Haradatta Emani', bio: ['Lead financial advisor for the pre-Series A.'] },
@@ -128,11 +112,11 @@ export const companyPages: CompanyPage[] = [
           { name: 'Prof. C. Krishna Mohan', role: 'Academic advisor · IIT Hyderabad', initials: 'CK', detail: 'Computer Science & Engineering', bio: ['Heads the VIGIL lab: intelligent transportation, autonomous-vehicle perception and real-time edge AI.'] },
           { name: 'Dr. K.T. Satyajith', role: 'Academic advisor · IMJIR', initials: 'KS', detail: 'Founder Director', bio: ['Experimental physics: atomic physics, ion trapping, precision spectroscopy and quantum computing.'] },
         ] },
-      { kind: 'cards', title: 'Silicon & Manufacturing Partners', lede: 'Specialist firms engaged across fabrication, physical design, IP and board manufacturing for the 28 nm combo die.', cols: 3, from: REF + '/about/team',
+      { kind: 'cards', title: 'Reported specialist roles describe the intended manufacturing chain.', lede: 'These relationships are described in the company record. Confirm current scope, contract status and implementation records during diligence; the roster is not evidence of fabricated or qualified parts.', cols: 3, from: REF + '/about/team',
         items: [
           { title: 'Muse Semi / GSME', meta: 'Fab / MPW', text: 'TSMC 28 nm HPC+ shuttle for the six-chiplet combo die; 79-day fab cycle.' },
           { title: 'SmartSoC', meta: 'Physical design', text: 'RTL-to-GDS partner: floorplanning, place and route, timing, DRC/LVS sign-off.' },
-          { title: 'PrimeSoC', meta: 'IP partner', text: 'Authored the feasibility reports DGrid-FS-001/002-2026; architecture confirmed feasible.' },
+          { title: 'PrimeSoC', meta: 'IP partner', text: 'Authored the feasibility reports DGrid-FS-001/002-2026; architecture feasibility described in those reports; request the reports for review.' },
           { title: 'Terminus Circuits', meta: 'PHY IP', text: 'High-speed PHY hard macros for the 28 nm die.' },
           { title: 'Anamya Technologies', meta: 'FPGA board fab', text: 'Artix-7 200T prototype boards and carrier PCBs for the current AD-series pilots.' },
         ] },
@@ -140,59 +124,41 @@ export const companyPages: CompanyPage[] = [
   },
   {
     id: 'recognition', menu: 'about', path: 'about/recognition', label: 'Achievements',
-    kicker: 'Our milestones', title: 'Achievements',
-    lede: 'Milestones and recognition in AI acceleration innovation',
+    kicker: 'Company · reported recognition', title: 'Recognition is context. Engineering evidence decides readiness.',
+    lede: 'The retained company record includes photographs attributed to TiE50 Hyderabad. Awards and event participation do not establish silicon performance, customer adoption, qualification or delivery.',
     sections: [
-      { kind: 'split', title: 'Top 50 Startups in Telangana', lede: 'Telangana Innovation Ecosystem & T-Hub · Recognition Year: 2024', from: REF + '/about/achievements',
-        paras: ['DeepGrid Semi Pvt. Ltd. is redefining the semiconductor landscape with its indigenous DGrid SoC, a low-power, high-parallelism AI chipset designed for ADAS, robotics, and edge intelligence. With a mission to bring Full-Stack Edge Intelligence: from Silicon, Sensors, Systems to Sentience, DeepGrid Semi stands at the forefront of India’s next-generation compute innovation.'], },
-      { kind: 'stats', from: REF + '/about/achievements', items: [['1000+', 'ADAS chipsets'], ['5+', 'Collaborations'], ['3+', 'Patents'], ['28', 'Skilled engineers']] },
-      { kind: 'bullets', title: 'Achievements', from: REF + '/about/achievements',
+      { kind: 'split', title: 'The retained record is a company-attributed event appearance.', from: REF + '/about/achievements',
+        paras: ['The company’s achievements record attributes the images below to TiE50 Hyderabad at the Hyderabad Entrepreneurship Summit. They are presented as company-provided event records, without asserting an independently verified award year or ranking.', 'For technical diligence, follow the architecture documents and corrective claim register. Simulation, implementation and estimates remain distinct from measured silicon and held certificates.'] },
+      { kind: 'figures', title: 'Company-provided TiE50 Hyderabad photographs.', from: REF + '/about/achievements',
         items: [
-          '1,000+ ADAS chipsets currently in the prototyping stage, showcasing our commitment to innovation and safety.',
-          '5+ Strategic collaborations with top Original Equipment Manufacturers (OEMs), including Yamaha Motors, Kia Motors, Renault-Nissan, and Maruti Suzuki.',
-          '3+ Patents filed for AI-based safety technologies that enhance automotive performance and accident prevention.',
-          '28 skilled engineers and researchers committed to advancing our ADAS solutions.',
+          { src: img('deepgridsemi/award1.webp'), alt: 'Company-provided photograph of the DeepGrid team on an event stage', caption: 'Attributed by the company to the Hyderabad Entrepreneurship Summit.', w: 1280, h: 960 },
+          { src: img('deepgridsemi/award2.webp'), alt: 'Company-provided TiE50 Hyderabad announcement graphic', caption: 'Company-provided TiE50 Hyderabad announcement; independent issuer verification is not included in this record.', w: 1280, h: 1280 },
         ] },
-      { kind: 'cards', title: 'All Awards & Recognition', cols: 3, from: REF + '/about/achievements',
-        items: [
-          { title: 'Top 50 Startups in Telangana', meta: '2024 · Telangana Innovation Ecosystem & T-Hub', text: 'Selected among the Top 50 Startups in Telangana for pioneering India’s edge-first semiconductor and AI ecosystem with the DGrid-SoC chipset.' },
-          { title: 'Top 10 AI Semiconductor Companies', meta: '2024 · Industry Analyst Report', text: 'Recognized among the top 10 AI semiconductor companies globally for our innovative NPU architecture and transformer optimization capabilities.' },
-          { title: 'Innovation Excellence Award', meta: '2024 · Semiconductor Industry Association', text: 'Honored for breakthrough innovations in edge AI processing and power-efficient chip design methodologies.' },
-          { title: 'Best Product Design - DG-T100', meta: '2024 · Design & Engineering Awards', text: 'Our DG-T100 transformer accelerator received acclaim for its elegant architecture and exceptional performance-per-watt ratio.' },
-          { title: 'Technology Pioneer', meta: '2023 · World Economic Forum', text: 'Selected as a Technology Pioneer for advancing AI acceleration technology and contributing to autonomous systems development.' },
-          { title: 'Fast Company Most Innovative', meta: '2023 · Fast Company Magazine', text: 'Featured for our disruptive approach to AI chip design and rapid market adoption in robotics and automotive sectors.' },
-          { title: 'Best Emerging Technology', meta: '2023 · CES Innovation Awards', text: 'Awarded at CES for our groundbreaking edge AI solutions that enable real-time processing in resource-constrained environments.' },
-          { title: 'Breakthrough Technology Award', meta: '2022 · MIT Technology Review', text: 'Recognized by MIT Technology Review for pioneering work in neural processing unit architecture and AI acceleration.' },
-          { title: 'Rising Star Company', meta: '2022 · TechCrunch Disrupt', text: 'Named Rising Star at TechCrunch Disrupt for our rapid growth and innovative solutions in the AI semiconductor space.' },
-        ] },
-      { kind: 'figures', title: 'TiE50 Hyderabad, at the Hyderabad Entrepreneurship Summit', from: REF + '/about/achievements',
-        items: [
-          { src: img('deepgridsemi/award1.webp'), alt: 'The DeepGrid Semi team receiving the award on stage at the Hyderabad Entrepreneurship Summit', caption: 'The award at the Hyderabad Entrepreneurship Summit.', w: 1280, h: 960 },
-          { src: img('deepgridsemi/award2.webp'), alt: 'TiE50 Hyderabad announcement: DeepGrid Semi selected among the Top 50 Startups in Telangana', caption: 'The TiE50 Hyderabad announcement.', w: 1280, h: 1280 },
-        ] },
+      { kind: 'cta', title: 'Judge the engineering on its published evidence.', lede: 'Inspect the maturity labels and original documents before treating a design target as a demonstrated capability.', from: 'site',
+        actions: [{ label: 'Review the evidence', href: '/evidence', primary: true }, { label: 'Open source documents', href: '/resources/docs' }] },
     ],
   },
 
   // ------------------------------------------------------------------ Resources,
   {
     id: 'docs', menu: 'resources', path: 'resources/docs', label: 'Documentation',
-    kicker: 'Technical documentation & resources', title: 'Resources',
-    lede: 'Access technical documentation, datasheets, whitepapers, and development resources',
+    kicker: 'Technical documentation', title: 'Read the source before you design around the claim.',
+    lede: 'Published architecture documents and preliminary datasheets explain the design. Resources marked on request are enquiries, not available downloads.',
     sections: [
-      { kind: 'cards', title: 'Read the source documents here', lede: 'The documents every figure on this site traces to. Each opens inside the site with its contents and sections; the PDF is the edition of record.', cols: 3,
+      { kind: 'cards', title: 'Published sources let you check the design and its limits.', lede: 'The documents every figure on this site traces to. Each opens inside the site with its contents and sections; the PDF is the edition of record.', cols: 3,
         items: groundedDocuments.map((d) => ({ title: d.title, meta: `PDF · ${d.pdfPageCount}`, text: d.summary.split(/(?<=\.)\s/)[0], href: d.specFile, go: 'Read on this site' })),
         from: 'app/documents-data.ts (grounded document registry)' },
       { kind: 'docs', groups: docGroups, from: 'deepgridsemi.com/resources/docs + the site’s own PDFs' },
-      { kind: 'cta', title: 'Need Technical Support?', lede: 'Our technical team is here to help you get the most out of our products', from: 'deepgridsemi.com/resources/docs',
+      { kind: 'cta', title: 'Bring the requirement the documents do not settle.', lede: 'Include the document, section and operating constraint so a technical enquiry can be scoped.', from: 'deepgridsemi.com/resources/docs',
         actions: [ { label: 'Contact Support', href: 'contact', primary: true }, { label: 'Videos', href: 'resources/videos' } ] },
     ],
   },
   {
     id: 'videos', menu: 'resources', path: 'resources/videos', label: 'Videos',
-    kicker: 'Demos, field tests & deep dives', title: 'Videos',
-    lede: 'Watch DeepGrid Semi’s silicon, autonomous driving, and mobility platforms in action.',
+    kicker: 'Recorded demos and engineering walkthroughs', title: 'See the demonstrated setup, then check what it establishes.',
+    lede: 'Recorded demonstrations, simulations and layout walkthroughs explain different systems. Footage of a platform does not verify DG32 silicon, safety qualification or performance across operating conditions.',
     sections: [
-      { kind: 'videos', title: 'By platform', groups: videoGroups, shorts: shortGroups, channel: true, from: 'deepgridsemi.com/resources/videos + youtube.com DeepGrid Semi channel' },
+      { kind: 'videos', title: 'Each recording belongs to its own platform and evidence scope.', groups: videoGroups, shorts: shortGroups, channel: true, from: 'deepgridsemi.com/resources/videos + youtube.com DeepGrid Semi channel' },
       { kind: 'cta', title: 'Simulations and the narrated walkthrough', lede: 'The product lines in their simulators, the silicon films, and the 104-slide portfolio narrated end to end.', from: 'showcase films',
         actions: [ { label: 'Narrated decks & films', href: 'resources', primary: true }, { label: 'Documentation', href: 'resources/docs' } ] },
     ],
@@ -201,8 +167,8 @@ export const companyPages: CompanyPage[] = [
   // ------------------------------------------------------------------ Contact,
   {
     id: 'contact', menu: 'contact', path: 'contact', label: 'Contact',
-    kicker: 'We\'re here to help', title: 'Get in Touch',
-    lede: 'Let\'s discuss how Deepgrid Semi can power your AI innovation',
+    kicker: 'Scope an evaluation', title: 'Bring the system, the constraint and the next evidence gate.',
+    lede: 'Tell us the equipment job, voltage and interfaces, timing, environmental conditions and intended safe state. Name the evidence you need to make the next decision.',
     sections: [{ kind: 'contact', from: REF + '/contact' }],
   },
 ];
@@ -327,26 +293,35 @@ const USECASE_DEPTH: Record<string, { paras: string[]; flowLabel: string; flow: 
 };
 const SLUG: Record<string, string> = { sku1: 'sku-1', sku2: 'sku-2', sku3: 'sku-3', sku4: 'sku-4', sku5: 'sku-5', sku6: 'sku-6', sku7: 'sku-7', sku8: 'sku-8', sku9: 'sku-9', d100: 'd100' };
 
-const stageOf = (e: string) => (e.startsWith('First silicon') ? 'First silicon' : e.startsWith('FPGA') ? 'FPGA-validated' : 'Design only');
+const NUM: Record<number, string> = {2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six'};
+/** The evidence section states where the chips stand, e.g. "Evidence today: one chip is FPGA-validated, one is at design stage." */
+const WORD: Record<number, string> = {1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six'};
+const evidenceTitle = (stages: string[]) => {
+  const n = (s: string) => stages.filter((x) => x === s).length;
+  const groups = [['First silicon', 'has first silicon', 'have first silicon'], ['FPGA-validated', 'is FPGA-validated', 'are FPGA-validated'], ['Simulation / implementation', 'has simulation and implementation records', 'have simulation and implementation records'], ['Design only', 'is at architecture stage', 'are at architecture stage']].filter(([s]) => n(s));
+  if (groups.length === 1) return `Evidence today: ${stages.length === 1 ? 'the chip ' + groups[0][1] : 'all ' + WORD[stages.length] + ' ' + groups[0][2]}.`;
+  return 'Evidence today: ' + groups.map(([s, one, many], i) => `${WORD[n(s)] ?? n(s)}${i === 0 ? (n(s) === 1 ? ' chip' : ' chips') : ''} ${n(s) === 1 ? one : many}`).join(', ') + '.';
+};
+const stageOf = (e: string) => (e.startsWith('First silicon') ? 'First silicon' : e.startsWith('FPGA') ? 'FPGA-validated' : e.startsWith('Simulation') ? 'Simulation / implementation' : 'Design only');
 export const useCasePages: CompanyPage[] = areas.map((a) => {
   const items = a.items.map((i) => ({ ...i, p: products[i.product] }));
   const sections: Section[] = [
-    { kind: 'split', title: 'Where the chips fit', paras: [a.lede, ...(USECASE_DEPTH[a.id]?.paras ?? [])], flow: USECASE_DEPTH[a.id]?.flow, flowLabel: USECASE_DEPTH[a.id]?.flowLabel, from: 'applications-story-data.ts (Technical Annex v3)' },
-    { kind: 'cards', title: 'The chips for this application', lede: `${items.length} ${items.length === 1 ? 'chip' : 'chips'}, each with what it does here.`, cols: items.length > 2 ? 3 : 2,
+    { kind: 'split', title: a.fit, paras: [a.lede, ...(USECASE_DEPTH[a.id]?.paras ?? [])], flow: USECASE_DEPTH[a.id]?.flow, flowLabel: USECASE_DEPTH[a.id]?.flowLabel, from: 'applications-story-data.ts (Technical Annex v3)' },
+    { kind: 'cards', title: items.length === 1 ? 'One architecture addresses this system function.' : `${NUM[items.length] ?? items.length} architectures, each with a defined role here.`, lede: 'What each part does in this system, and where it stands today.', cols: items.length > 2 ? 3 : 2,
       items: items.map((i) => ({ title: i.p.name, meta: `${i.p.tag} · ${stageOf(i.p.evidence)}`, text: i.role + (i.p.replaces ? ' Replaces: ' + i.p.replaces : ''), href: '/products/' + SLUG[i.product], go: `Open the ${i.p.tag} page` })),
       from: 'applications-story-data.ts' },
-    ...(USECASE_DEPTH[a.id] ? [{ kind: 'steps' as const, title: 'Where it can fail, and what catches it', lede: 'The failure modes this system has to survive, and the part of the design that answers each one.', items: USECASE_DEPTH[a.id].failures, from: 'Technical Annex v3 engineering questions' }] : []),
-    { kind: 'bullets', title: 'What the evidence says today', items: items.map((i) => `${i.p.tag}, ${i.p.name}: ${i.p.evidence}`), from: 'applications-story-data.ts' },
+    ...(USECASE_DEPTH[a.id] ? [{ kind: 'steps' as const, title: `${NUM[USECASE_DEPTH[a.id].failures.length] ?? USECASE_DEPTH[a.id].failures.length} ways this system fails, and the block that catches each.`, lede: 'The failure modes this system has to survive, and the part of the design that answers each one.', items: USECASE_DEPTH[a.id].failures, from: 'Technical Annex v3 engineering questions' }] : []),
+    { kind: 'bullets', title: evidenceTitle(items.map((i) => stageOf(i.p.evidence))), items: items.map((i) => `${i.p.tag}, ${i.p.name}: ${i.p.evidence}`), from: 'applications-story-data.ts' },
   ];
   const SCENE3D: Record<string, { scene: 'motor' | 'truck' | 'defence'; title: string; lede: string }> = {
     motors: { scene: 'motor', title: 'The motor the chips run and supervise', lede: 'Three phase windings around a magnet rotor: SKU-1 drives them, DG32-LITE watches the drive and can shut it down.' },
   };
   if (SCENE3D[a.id]) sections.splice(1, 0, { kind: 'scene', ...SCENE3D[a.id], from: 'v3 three.js scenes' });
   if (FILMS[a.id]) sections.push({ kind: 'films', title: 'DG32 in this application, explained', lede: 'Narrated films on the DG32 safety path and architecture, with captions.', ids: FILMS[a.id], from: 'DG32 films' });
-  sections.push({ kind: 'cta', title: 'Tell us about your application', lede: 'The motor, the control requirement and the sensing constraint are what we need to answer.', from: 'site',
+  sections.push({ kind: 'cta', title: 'Bring the system and its constraints.', lede: a.ask, from: 'site',
     actions: [{ label: 'Discuss your application', href: '/contact', primary: true }, { label: 'All chips by application', href: '/applications' }] });
   return {
-    id: 'uc-' + a.id, menu: 'usecases', path: 'use-cases/' + a.id, label: a.name, kicker: 'Use case', title: a.name, lede: a.headline,
+    id: 'uc-' + a.id, menu: 'usecases', path: 'use-cases/' + a.id, label: a.name, kicker: 'Use case · ' + a.name, title: a.headline, lede: a.lede,
     heroImage: { src: url(SCENE[a.id].src), alt: SCENE[a.id].alt },
     chips: items.slice(0, 3).map((i) => [i.p.name, i.role] as [string, string]),
     sections,

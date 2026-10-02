@@ -1,6 +1,6 @@
 # Workspace map
 
-- `app/routes.ts`, `app/shell.tsx`, `app/mega-nav.tsx`: 24-route map, navigation and shared page shell.
+- `app/routes.ts`, `app/shell.tsx`, `app/mega-nav.tsx`: 35-route map, navigation and shared page shell.
 - `app/home-refined.tsx`, `app/portfolio-v6.css`: portfolio-first homepage storyboard and presentation.
 - `app/portfolio-story-data.ts`, `app/portfolio-story.tsx`: source-backed portfolio, qualification, strategy and evaluation register.
 - `app/portfolio-workbench.tsx`, `app/portfolio-workbench.css`: persistent material illustration with Three.js functional and fault overlays; reduced-motion/static states.
@@ -16,3 +16,8 @@
 - `scripts/document-readers.mjs`, `scripts/verify-reading.mjs`: generated source-document reading editions, mobile reading checks and light-section foreground regression checks.
 
 Windows: run npm through `node 'C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js'`. Stop preview servers before rebuilding `dist`; Windows can lock the served export. Build with both `PAGES_BASE` and `NEXT_PUBLIC_PAGES_BASE` set to the endpoint path. Do not rebuild during route capture.
+
+- `docs/v7/story-pack.md`, `docs/v7/narrative-coverage.json`: v7 argument and all-route section/evidence coverage.
+- `app/architecture-storyboard.tsx`, `scripts/architecture-storyboards.py`, `public/storyboards/`: source-derived Draw.io chapter reader, connection interactions and reproducible source exports.
+- `app/v7.css`, `app/reading-compass.tsx`, `app/scrollcraft-surface.tsx`: approved v7 design extension, chapter navigation and scroll engine theming.
+- `scripts/verify-v7-storyboards.mjs`, `docs/v7/qa-report.md`: storyboard interaction gate and final v7 validation disposition.

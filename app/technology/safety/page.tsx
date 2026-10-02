@@ -66,12 +66,12 @@ export default function Page() {
           ]}/>
         </Sec>
 
-        <Sec kicker="HOW THE PATH IS PROVEN" title="Firmware fires the fault on purpose," em="because that is the only test real silicon allows." copy="A path that only ever runs when something breaks has to be exercised deliberately. The injection register is locked, so ordinary code cannot trip it by accident.">
+        <Sec kicker="HOW THE PATH IS PROVEN" title="Firmware fires the fault on purpose," em="so bring-up can exercise the hardware path." copy="A path that only ever runs when something breaks has to be exercised deliberately. The injection register is locked, so ordinary code cannot trip it by accident.">
           <Steps label="Proving the fault path on silicon" steps={[
             ['Unlock and inject','Firmware writes the magic value to the Fault CSR, which fires the comparator path without a real fault.'],
             ['The path runs','The same hardware path as a real mismatch: comparator, latch, FAULT_N, gate-driver enable.'],
             ['Read the first cause','The latch holds cause 001, DATA_MISMATCH, until reset, so firmware can confirm what fired.'],
-            ['Time it','39 cycles from injection to latch in simulation. First-silicon bring-up measures it on the September 2026 shuttle parts.'],
+            ['Time it','39 cycles from injection to latch in simulation. First-silicon bring-up must measure it on identified returned parts; the September 2026 shuttle date is a recorded plan.'],
           ]}/>
         </Sec>
 

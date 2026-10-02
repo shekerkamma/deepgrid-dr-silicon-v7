@@ -8,13 +8,16 @@ import {ArrowRight,ArrowUpRight} from 'lucide-react';
 import {DataTable,ExplainedGrid,Sec,SectionHead,Stats} from '../detail';
 import {familyCompare, sovereignSkuHorizon} from '../detail-content';
 import {parts} from '../content';
-import {ChipMap,LoopCost,WhyLockstep} from '../products-story';
+import {LoopCost,WhyLockstep} from '../products-story';
+import {useState} from 'react';
+import {ArchitectureStoryboard} from '../architecture-storyboard';
 import {ProductsScene} from '../three/blocks';
 import Related from '../related';
 import {url} from '../routes';
 
 export default function Page() {
   const {navigate, go, href} = useNav();
+  const [architectureVariant,setArchitectureVariant]=useState<'dg32-lite'|'dg32-2dom'>('dg32-lite');
   return (
     <Shell route="products">
       <section className="page-wrap">
@@ -32,8 +35,12 @@ export default function Page() {
    </div>
   </Sec>
 
-  <Sec kicker="WHAT IS IN THE CHIP" title="Six block groups on one clock;" em="DG32-2DOM adds a seventh on its own." copy="Choose a block to see what it does and why it is there. Then switch to DG32-2DOM: the six groups are the same design from the same source, and only the attention engine and its bridges are new.">
-   <ChipMap/>
+  <Sec kicker="WHAT IS IN THE CHIP" title="Six block groups on one clock;" em="DG32-2DOM adds a seventh on its own." copy="Follow the source-defined component flow, then compare the DG32-2DOM attention domain and its bridges. Both views keep their architecture constraints and evaluation questions beside the drawing.">
+   <div className="as-chapters" role="group" aria-label="DG32 architecture variant">
+    <button aria-pressed={architectureVariant==='dg32-lite'} onClick={()=>setArchitectureVariant('dg32-lite')}>DG32-LITE · control domain</button>
+    <button aria-pressed={architectureVariant==='dg32-2dom'} onClick={()=>setArchitectureVariant('dg32-2dom')}>DG32-2DOM · attention domain</button>
+   </div>
+   <ArchitectureStoryboard id={architectureVariant}/>
    <details className="ps-specs">
     <summary>Full specifications, side by side</summary>
     <DataTable caption="DG32-LITE and DG32-2DOM compared" head={['Area','DG32-LITE','DG32-2DOM']} rows={familyCompare} wide/>

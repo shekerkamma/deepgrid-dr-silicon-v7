@@ -380,3 +380,10 @@ body was rebuilt. The exact 24-route review is in `docs/v6/site-review.md`.
 
 
 
+
+
+## v7 editorial modernization
+
+Preserve the existing ink/copper identity and self-hosted type. `app/v7.css` owns shared typography, natural-flow hero composition, reading-guide select, progress rule, navigation density and deliberate mobile stacking. `--v7-gutter` and `--v7-space` provide responsive rhythm; `--v7-measure:68ch` contains prose; `--v7-display` caps display scale at 6rem; `--v7-ease` is the exponential ease-out curve. New architecture presentation comes from source-backed storyboards, not native DOM box diagrams. The scroll-craft engine is copied unchanged into public/vendor. Section choices remain semantically real and fully visible without motion. The corrected shared header says architecture portfolio / pre-silicon evidence, never a historical unverified first-silicon date.
+
+V7 reader/control steps: 0.8rem metadata, 0.875rem chapter controls, 1rem to 1.15rem fluid introductory prose, and 1.25rem compact editorial leads. The display step spans 3.2rem to 6rem; section steps span 2.4rem to 4.5rem. These intentional steps extend the existing hierarchy rather than a new type identity. ScrollCraft vendor tokens map to the existing DeepGrid color/font roles; its defaults are not a second brand.

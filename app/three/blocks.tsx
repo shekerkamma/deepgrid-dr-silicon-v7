@@ -11,7 +11,7 @@ export function SafetyScene() {
     <section className="s3-block" aria-labelledby="s3-safety">
       <LockstepScene reduced={reduced} />
       <div>
-        <h2 id="s3-safety">The same path, in three dimensions</h2>
+        <h2 id="s3-safety">A fault reaches the safe-state path without firmware.</h2>
         <p>Both cores commit the same values; CHECKER runs behind MAIN. When one value differs, the comparator catches it on that store, the latch holds the first cause, FAULT_N falls and the gate driver turns the bridge off.</p>
       </div>
     </section>
@@ -24,7 +24,7 @@ export function ControlScene() {
     <section className="page-wrap"><div className="s3-block" aria-labelledby="s3-motor">
       <MotorScene reduced={reduced} />
       <div>
-        <h2 id="s3-motor">What the loop is driving</h2>
+        <h2 id="s3-motor">Every control tick keeps the field leading the rotor.</h2>
         <p>A brushless motor has three phase windings. Every control tick samples their currents, transforms them, regulates them and updates the bridge, so the field keeps leading the rotor.</p>
       </div>
     </div></section>
@@ -38,7 +38,7 @@ export function PackageScene() {
     <section className="s3-block" aria-labelledby="s3-qfn">
       <QfnScene reduced={reduced} side={side} />
       <div>
-        <h2 id="s3-qfn">Where each group of signals leaves the package</h2>
+        <h2 id="s3-qfn">Eleven signal groups share 44 pins, set between supplies and grounds on every side.</h2>
         <p>Pick a side to light its pads. The groups sit between supplies and grounds on every side.</p>
         <div className="s3-controls" role="group" aria-label="Package side">
           {packageSides.map((p) => (
@@ -59,7 +59,7 @@ export function ShuttleScene() {
     <section className="s3-block" aria-labelledby="s3-wafer">
       <WaferScene reduced={reduced} />
       <div>
-        <h2 id="s3-wafer">First silicon rides a shared shuttle</h2>
+        <h2 id="s3-wafer">A shared shuttle is the fabrication route; returned silicon is a separate gate.</h2>
         <p>A multi-project wafer lets several designs share each reticle, which is how a first spin reaches silicon without a full mask set. DG32-LITE is on the September 2026 shuttle.</p>
       </div>
     </section>

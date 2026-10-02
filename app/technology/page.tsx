@@ -21,7 +21,7 @@ export default function Page() {
       <section className="page-wrap">
         <SectionHead
           title="Two chips, one frozen safety core"
-          copy="DG32-LITE is the lockstep motor-control SoC; DG32-2DOM adds an INT8 attention engine on its own clock. Choose one for its diagram, every block and why it exists, the constraints that shaped it and how data moves through it, or see the die as recorded for tape-in."
+          copy="DG32-LITE is the lockstep motor-control SoC; DG32-2DOM adds an INT8 attention engine on its own clock. Choose one for its diagram, every block and why it exists, the constraints that shaped it and how data moves through it, or inspect the implementation record prepared for tape-in. A tape-in record does not establish returned silicon."
         />
         <Architecture
           chip={params.get('chip') || 'lite'}

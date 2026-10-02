@@ -1,0 +1,187 @@
+{
+  "workflow": "architecture-to-everything: existing draw.io \u2192 source explanation \u2192 interactive web storyboard",
+  "scope": "Web storyboards only; no requested PPTX or Notebook upload",
+  "diagramRendering": "Unchanged draw.io-exported SVG assets; no native HTML architecture diagram runtime",
+  "coverage": [
+    "dg32-lite",
+    "dg32-2dom",
+    "sku-1",
+    "sku-2",
+    "sku-3",
+    "sku-5",
+    "sku-6",
+    "sku-7",
+    "sku-8",
+    "sku-9",
+    "d100"
+  ],
+  "sourceRegister": {
+    "dg32-lite": [
+      {
+        "path": "public/downloads/dg32-lite-architecture-guide.md",
+        "sha256": "44f665a87625de3a0df113b0e0e6e8d16be71736be4aa72ebfd9a60686619890"
+      },
+      {
+        "path": "public/downloads/dg32-lite-architecture.drawio",
+        "sha256": "029df1112101cab0ab5e4ed40856fed00a304291ae13245fe7fa8e010e85a1a3"
+      },
+      {
+        "path": "public/diagrams/dg32-lite-architecture.svg",
+        "sha256": "7fda913b46a3c4efe8a690905102a1c118bcc4deced0290e60b19b4fa8555a90"
+      }
+    ],
+    "dg32-2dom": [
+      {
+        "path": "public/downloads/dg32-2dom-architecture-guide.md",
+        "sha256": "72dd3bd1a03ba00f4a8e446019c9d77308580d6b86a6e673d7471dac4ac29779"
+      },
+      {
+        "path": "public/downloads/dg32-2dom-architecture.drawio",
+        "sha256": "60f8ec10ab15153e86715daa02ef7df5164900361f9ad14bdf00c71bf2e7cecf"
+      },
+      {
+        "path": "public/diagrams/dg32-2dom-architecture.svg",
+        "sha256": "c639bcbcccbe4a72f4ca8ccd4610bac9dd659040dfbcadb18301b30220c3ba10"
+      }
+    ],
+    "sku-1": [
+      {
+        "path": "public/downloads/sku-1-architecture-guide.md",
+        "sha256": "8c33e0d52bc8eab9c9dd7e6e67c78b2434bc8c53be39fd696cf9f3d60755fe19"
+      },
+      {
+        "path": "public/downloads/sku-1-architecture.drawio",
+        "sha256": "06c809ea4bee389e17675d58978214b20b9eb29eb1b62a0724a5be40bfe57da3"
+      },
+      {
+        "path": "public/diagrams/sku-1-architecture.svg",
+        "sha256": "507256c39b913a1fbe804162148573fb44238bb7b1ef8011cac7fed8dcaa46eb"
+      }
+    ],
+    "sku-2": [
+      {
+        "path": "public/downloads/sku-2-architecture-guide.md",
+        "sha256": "6be0d228842827a6633af1f85f63fadc25ada175e6d5a50faf6ea2e6485e6ea1"
+      },
+      {
+        "path": "public/downloads/sku-2-architecture.drawio",
+        "sha256": "8d0447575289b70b1651339e2cb6fa7e223c9bf6f8572bcb74344af852a870d2"
+      },
+      {
+        "path": "public/diagrams/sku-2-architecture.svg",
+        "sha256": "86ae4920b957da065c16d9e656d49db37e9db638d60e8b3be71a1c1b4d047997"
+      }
+    ],
+    "sku-3": [
+      {
+        "path": "public/downloads/sku-3-architecture-guide.md",
+        "sha256": "3f17b1ad49d2ad53a6148417acc5a110bb392454416f90d007273fbf0be4e981"
+      },
+      {
+        "path": "public/downloads/sku-3-architecture.drawio",
+        "sha256": "327cdb8fe3cb6cdfc4e13ec2489e98fd3b8fc7d569f870d897cfc47faca4be53"
+      },
+      {
+        "path": "public/diagrams/sku-3-architecture.svg",
+        "sha256": "5f368e524ce0aaa1c8f9c3fbeeeead9721bd0fb202092db15993b581afa27a8b"
+      }
+    ],
+    "sku-5": [
+      {
+        "path": "public/downloads/sku-5-architecture-guide.md",
+        "sha256": "fff9d37ae12d6043578d10d9d11a817f0acb72293fb4156dcdd218c8f1c2805c"
+      },
+      {
+        "path": "public/downloads/sku-5-architecture.drawio",
+        "sha256": "5b55435c11811a694a4a96662da98818bc7cb045fb9ded61db60e79f5cb57841"
+      },
+      {
+        "path": "public/diagrams/sku-5-architecture.svg",
+        "sha256": "ed1e11e9559ff6f0ed3863b4767b2a3c98eba0db37759744cbd67677a7f62838"
+      }
+    ],
+    "sku-6": [
+      {
+        "path": "public/downloads/sku-6-architecture-guide.md",
+        "sha256": "346ade748bf2f325b7fe4d59c229226a660fefa789bf81aee6b2deda2cd11e08"
+      },
+      {
+        "path": "public/downloads/sku-6-architecture.drawio",
+        "sha256": "35c9817f3f3b27a662eca86b1302b1596bd2ef9793104f0d3ccd40e64f1c22e6"
+      },
+      {
+        "path": "public/diagrams/sku-6-architecture.svg",
+        "sha256": "bd4f56c2a6e19c786dfa9b6a575926d8512a790c6d2f4e57ebf1aa38f6660415"
+      }
+    ],
+    "sku-7": [
+      {
+        "path": "public/downloads/sku-7-architecture-guide.md",
+        "sha256": "085cc24c61006de64bc908eb80b75f481231bae665313d189f0e8a7962ba4607"
+      },
+      {
+        "path": "public/downloads/sku-7-architecture.drawio",
+        "sha256": "744e242ce5649d7a23c68eb44198f1945b20d8aef7c80aec18cb0cbcca6cd4ca"
+      },
+      {
+        "path": "public/diagrams/sku-7-architecture.svg",
+        "sha256": "837745d9f9444a4ded79a568639288339bf1d516e54555842b2121e4941b301d"
+      }
+    ],
+    "sku-8": [
+      {
+        "path": "public/downloads/sku-8-architecture-guide.md",
+        "sha256": "4fdcc20b3a38e6d920bad876f6ef2a4d5095bab1d268161c5e0470d0a2d0dbb9"
+      },
+      {
+        "path": "public/downloads/sku-8-architecture.drawio",
+        "sha256": "2a4d28fdbe875145fbc69bebc97e1df6ca4c4f5f538815f94939fb590952bf5c"
+      },
+      {
+        "path": "public/diagrams/sku-8-architecture.svg",
+        "sha256": "4eecf01061e102b5f962816d86715c7a23a6590e8fcf7ae4e062bb5729f8c07c"
+      }
+    ],
+    "sku-9": [
+      {
+        "path": "public/downloads/sku-9-architecture-guide.md",
+        "sha256": "7c10664bc0ac16d97cd9962a72989015dae043de5f03972bcd8b9085b12d785b"
+      },
+      {
+        "path": "public/downloads/sku-9-architecture.drawio",
+        "sha256": "38bd63499243b10408c3b7efedc3d4f8ec0b045c0fce4dc2d85b18532f12e398"
+      },
+      {
+        "path": "public/diagrams/sku-9-architecture.svg",
+        "sha256": "13d28331442c73c5797873567f0c3916ea703b120d8668a3aa55f8bc48c2df6a"
+      }
+    ],
+    "d100": [
+      {
+        "path": "public/downloads/d100-architecture-guide.md",
+        "sha256": "51c7d87898fd0e749f4d9637d1a3095d7c584407fda15d77039099f6171e891b"
+      },
+      {
+        "path": "public/downloads/d100-architecture.drawio",
+        "sha256": "7b4a5e2b5d4ce9ff4aa4ad88eaeeeddd5886418cc0d7e4d5abe14fd9e60527e0"
+      },
+      {
+        "path": "public/diagrams/d100-architecture.svg",
+        "sha256": "0b2072a82cef2c051efb29010ee4d6cf14da8884b60a9e7df1f3d1ac740108f3"
+      }
+    ]
+  },
+  "frames": [
+    "Setup",
+    "Component flow",
+    "Control / fault",
+    "Implication",
+    "Evaluation"
+  ],
+  "constraints": [
+    "No claim of measured silicon or certification",
+    "Do not imply logic topology is a physical floorplan",
+    "No auto-advance; keyboard, touch and reduced-motion reading",
+    "Every source edge preserves original endpoints and label"
+  ]
+}

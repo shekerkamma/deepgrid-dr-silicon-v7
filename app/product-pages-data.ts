@@ -14,6 +14,7 @@ export type ProductBlock = {name: string; items: string[]};
 export type ProductPage = {
   id: ProductId; slug: string; portfolioId: string;
   headline: string; lede: string;
+  story: {physics: string; blocks: string; specs: string; questions: string; conclusion: string; evaluationAsk: string};
   physics: {requirement: string; consequence: string}[];
   blocks: ProductBlock[];
   blockNote: string;
@@ -28,8 +29,9 @@ export type ProductPage = {
 export const productPages: ProductPage[] = [
   {
     id: 'sku1', slug: 'sku-1', portfolioId: 'sku-1',
+    story: {"physics": "Voltage and switching noise decide the motor die.", "blocks": "Sense, compute and drive share one proposed motor-control path.", "specs": "The motor-drive figures are architecture targets to test.", "questions": "Isolation, timing and dead time decide whether the drive is usable.", "conclusion": "Evaluate the drive against its power stage and loop deadline.", "evaluationAsk": "Bring motor voltage, switching edges, sensing quality, loop rate and the safe-state requirement."},
     headline: 'One die runs the motor and drives its power stage.',
-    lede: 'SKU-1 collapses the usual two-chip motor drive, a microcontroller plus a separate gate pre-driver, into one 130 nm BCD die. Field-oriented control runs in hardware, so the control loop does not wait on firmware, and the same die drives the high-voltage stage.',
+    lede: 'Architecture scope, pre-silicon: SKU-1 collapses the usual two-chip motor drive, a microcontroller plus a separate gate pre-driver, into one 130 nm BCD die. Field-oriented control runs in hardware, so the control loop does not wait on firmware, and the same die drives the high-voltage stage.',
     physics: [
       {requirement: 'The pre-driver rail spans 5 V to 120 V.', consequence: 'That needs BCD power devices on the same die as the logic; thin-oxide advanced nodes cannot hold the voltage.'},
       {requirement: 'A 16-bit ADC shares the die with a switching half-bridge.', consequence: 'Fast switching edges couple into the substrate, so the analog section needs guard rings and separate grounds.'},
@@ -64,8 +66,9 @@ export const productPages: ProductPage[] = [
   },
   {
     id: 'sku2', slug: 'sku-2', portfolioId: 'sku-2',
+    story: {"physics": "Metrology must survive tamper, outages and lifetime drift.", "blocks": "Measurement and retention need distinct operating domains.", "specs": "Accuracy and retention targets require lifetime measurements.", "questions": "Prove the meter across drift, tamper and backup operation.", "conclusion": "Choose the meter only after the measurement case is defined.", "evaluationAsk": "Bring meter accuracy class, current range, tamper scenarios and required outage retention."},
     headline: 'A meter that keeps measuring, and keeps its record, when the mains is gone.',
-    lede: 'SKU-2 puts a six-channel 24-bit sigma-delta front end, the metrology engine, cryptography and an always-on clock domain on one 130 nm CMOS die, so a meter needs one chip for measurement, security and its own time base.',
+    lede: 'Architecture scope, pre-silicon: SKU-2 puts a six-channel 24-bit sigma-delta front end, the metrology engine, cryptography and an always-on clock domain on one 130 nm CMOS die, so a meter needs one chip for measurement, security and its own time base.',
     physics: [
       {requirement: 'Class 0.5S accuracy across a 1000:1 current range.', consequence: 'A sigma-delta converter with low flicker noise and stable references, calibrated once for a long service life.'},
       {requirement: 'The clock and tamper log must survive outages on a backup cell.', consequence: 'An isolated always-on domain drawing under 2 µW, separate from the 200 MHz core.'},
@@ -98,8 +101,9 @@ export const productPages: ProductPage[] = [
   },
   {
     id: 'sku3', slug: 'sku-3', portfolioId: 'sku-3',
+    story: {"physics": "The 28 V bus makes surge survival a first design requirement.", "blocks": "Sequenced rails and upset handling define the power architecture.", "specs": "Regulator and environmental values remain design targets.", "questions": "Surge, loop stability and upset spacing need physical evidence.", "conclusion": "Evaluate power integrity before promising equipment reliability.", "evaluationAsk": "Bring the input surge profile, rail loads, capacitors, temperature and radiation requirements."},
     headline: 'Turn a 28 V equipment bus into four sequenced, supervised rails.',
-    lede: 'SKU-3 is a high-reliability power management IC for avionics and vehicle electronics: a pre-buck regulator takes the 28 V bus, four regulators sequence the board supplies, and a hardened state machine keeps the sequence correct under radiation.',
+    lede: 'Architecture scope, pre-silicon: SKU-3 is a high-reliability power management IC for avionics and vehicle electronics: a pre-buck regulator takes the 28 V bus, four regulators sequence the board supplies, and a hardened state machine keeps the sequence correct under radiation.',
     physics: [
       {requirement: 'The input sees 4.5 to 40 V continuous, 80 V surges and 100 V spikes.', consequence: 'A 180 nm BCD process with 30 V power devices and an input stage that clamps without thermal runaway.'},
       {requirement: 'A 12 ppm/°C reference from −55 to +125 °C.', consequence: 'A curvature-corrected bandgap with large matched resistors, a mature-node strength.'},
@@ -133,6 +137,7 @@ export const productPages: ProductPage[] = [
   },
   {
     id: 'sku4', slug: 'sku-4', portfolioId: 'sku-4',
+    story: {"physics": "Safety response needs deterministic comparison and a physical interlock.", "blocks": "Two delayed cores feed one hardware fault path.", "specs": "Separate the annex target from DG32 implementation evidence.", "questions": "The safety case needs coverage, alignment and safe-state tests.", "conclusion": "DG32 is inspectable pre-silicon evidence, with qualification still ahead.", "evaluationAsk": "Bring fault cases, diagnostic coverage goals, interlock wiring and the applicable safety target."},
     headline: 'Two cores, two cycles apart, and a comparator that answers in hardware.',
     lede: 'SKU-4 is the safety microcontroller of the portfolio and the one part with detailed engineering evidence: DG32-LITE implements it. A second core runs the same instructions two cycles behind the first; when their committed results differ, a comparator latches the cause and drives the fault pin without waiting for firmware.',
     physics: [
@@ -173,8 +178,9 @@ export const productPages: ProductPage[] = [
   },
   {
     id: 'sku5', slug: 'sku-5', portfolioId: 'sku-5',
+    story: {"physics": "A exposed harness makes analog protection the decisive work.", "blocks": "The receiver, driver and protection structures define the link.", "specs": "Interface rates and immunity are targets, not qualified limits.", "questions": "Silicon ESD data and the first pin-compatible socket decide adoption.", "conclusion": "Evaluate the link in the wiring environment it must survive.", "evaluationAsk": "Bring the bus standard, node count, cable length, fault voltages, ESD conditions and replacement pinout."},
     headline: 'The link at every node of an industrial or vehicle bus.',
-    lede: 'SKU-5 is a dual-channel line driver, RS-485 and CAN-FD, built where a bus transceiver belongs: thick-oxide 5 V output devices, hysteresis receivers, failsafe biasing and heavy ESD protection. Every differentiating block is analog; the logic is a thin skin.',
+    lede: 'Architecture scope, pre-silicon: SKU-5 is a dual-channel line driver, RS-485 and CAN-FD, built where a bus transceiver belongs: thick-oxide 5 V output devices, hysteresis receivers, failsafe biasing and heavy ESD protection. Every differentiating block is analog; the logic is a thin skin.',
     physics: [
       {requirement: 'Bus pins face miswiring, ground shifts and electrostatic discharge.', consequence: 'Thick-oxide 5 V LDMOS outputs and large ESD structures, which mature 130 nm offers and advanced nodes do not.'},
       {requirement: 'Reach and node count depend on edge timing, not headline bit rate.', consequence: 'Trimmed slew control and a fixed propagation budget: 20 ns driver, 50 ns receiver.'},
@@ -208,8 +214,9 @@ export const productPages: ProductPage[] = [
   },
   {
     id: 'sku6', slug: 'sku-6', portfolioId: 'sku-6',
+    story: {"physics": "A supervisor must reject noise without missing a damaging fault.", "blocks": "Four monitored rails feed filtering and a latched reset decision.", "specs": "Threshold and timing targets need measured drift and noise data.", "questions": "Deglitch, ripple and ageing decide whether reset is trustworthy.", "conclusion": "Screening is a gate to prove, not a badge the architecture holds.", "evaluationAsk": "Bring rail voltages, ramp sequences, converter noise, reset deadline and required screening."},
     headline: 'Watch four rails, ignore the switching noise, latch the real fault.',
-    lede: 'SKU-6 supervises four supply rails with chopper-stabilised comparators and matched resistor ladders, filters out converter noise with an 8 µs deglitch, and latches a fault the system cannot ignore. It is planned as the first part through the MIL-STD-883 screening flow.',
+    lede: 'Architecture scope, pre-silicon: SKU-6 supervises four supply rails with chopper-stabilised comparators and matched resistor ladders, filters out converter noise with an 8 µs deglitch, and latches a fault the system cannot ignore. It is planned as the first part through the MIL-STD-883 screening flow.',
     physics: [
       {requirement: 'Thresholds accurate to a fraction of a percent.', consequence: 'Comparators with offset under 500 µV and 0.1%-matched polysilicon dividers trimmed once.'},
       {requirement: 'A buck converter’s ripple must not trip it; a real brownout must.', consequence: 'An 8 µs digital deglitch window between the comparator and the latch.'},
@@ -243,8 +250,9 @@ export const productPages: ProductPage[] = [
   },
   {
     id: 'sku7', slug: 'sku-7', portfolioId: 'sku-7',
+    story: {"physics": "The RF front end must be proven on silicon.", "blocks": "Two process choices divide RF sensing from target processing.", "specs": "Range and chirp figures are architecture targets.", "questions": "The die boundary and interference environment govern radar risk.", "conclusion": "Choose the radar evaluation around an RF measurement plan.", "evaluationAsk": "Bring range, target conditions, chirp requirements, radio co-existence and the intended RF test setup."},
     headline: 'Two dies, because 77 GHz and signal processing want different silicon.',
-    lede: 'SKU-7 is a 4D imaging radar split across a silicon-germanium transceiver for the 77 GHz front end and a 130 nm CMOS die for sampling, FFTs and target detection. Its own sheet states the risk plainly: the SiGe front end has no FPGA equivalent, so it is proven on silicon or not at all.',
+    lede: 'Architecture scope, pre-silicon: SKU-7 is a 4D imaging radar split across a silicon-germanium transceiver for the 77 GHz front end and a 130 nm CMOS die for sampling, FFTs and target detection. Its own sheet states the risk plainly: the SiGe front end has no FPGA equivalent, so it is proven on silicon or not at all.',
     physics: [
       {requirement: 'Gain at 77 GHz.', consequence: 'SiGe heterojunction transistors with transition frequency above 350 GHz; standard CMOS lacks the margin.'},
       {requirement: 'Range resolution of 3.75 cm.', consequence: 'A 4 GHz chirp sweep with a linear, low-noise frequency ramp.'},
@@ -277,8 +285,9 @@ export const productPages: ProductPage[] = [
   },
   {
     id: 'sku8', slug: 'sku-8', portfolioId: 'sku-8',
+    story: {"physics": "Panel voltage and temperature set the display-driver physics.", "blocks": "Timing, source drive and freeze detection share one design.", "specs": "Display and fault-detection targets require panel testing.", "questions": "Contrast, heat and freeze detection determine cockpit usefulness.", "conclusion": "Evaluate the displayed result under the operator’s conditions.", "evaluationAsk": "Bring panel interface, resolution, temperature, sunlight contrast and acceptable freeze-detection time."},
     headline: 'A cockpit display driver that notices when the picture freezes.',
-    lede: 'SKU-8 integrates a timing controller and a 1280-channel 10-bit source driver on one 130 nm high-voltage die, with temperature-compensated gamma for sunlight and a frame-freeze self-test that flags a frozen display within two frames.',
+    lede: 'Architecture scope, pre-silicon: SKU-8 integrates a timing controller and a 1280-channel 10-bit source driver on one 130 nm high-voltage die, with temperature-compensated gamma for sunlight and a frame-freeze self-test that flags a frozen display within two frames.',
     physics: [
       {requirement: 'Panel columns swing 0 to 12 V and row drivers need 24 V.', consequence: 'Thick-oxide high-voltage amplifiers and level shifters on a 130 nm HV process; dense nodes cannot reach these voltages.'},
       {requirement: 'Contrast must hold at +85 °C in direct sun.', consequence: 'An on-die temperature sensor feeding a 14-bit gamma table.'},
@@ -312,8 +321,9 @@ export const productPages: ProductPage[] = [
   },
   {
     id: 'sku9', slug: 'sku-9', portfolioId: 'sku-9',
+    story: {"physics": "Zonal loads and wiring require a different node from central compute.", "blocks": "Local networking, smart fuses and isolated control share the zone.", "specs": "Latency and protection figures remain architecture targets.", "questions": "Harness faults and competing traffic must be tested together.", "conclusion": "Keep the zone’s control case separate from central computing.", "evaluationAsk": "Bring network traffic, critical latency, fused loads, harness inductance and isolation requirements."},
     headline: 'The zonal edge of a software-defined vehicle, not its central computer.',
-    lede: 'SKU-9 bridges in-vehicle networks to local loads in one zone: sixteen smart electronic fuses, a time-sensitive Ethernet switch, a lockstep safety island and a hardware security module. Its sheet draws the line itself: the central multi-gigahertz computer is a sub-10 nm part and is not claimed.',
+    lede: 'Architecture scope, pre-silicon: SKU-9 bridges in-vehicle networks to local loads in one zone: sixteen smart electronic fuses, a time-sensitive Ethernet switch, a lockstep safety island and a hardware security module. Its sheet draws the line itself: the central multi-gigahertz computer is a sub-10 nm part and is not claimed.',
     physics: [
       {requirement: 'Switch and protect 12 V and 48 V loads in a harness.', consequence: 'BCD power devices for the smart fuses alongside the logic.'},
       {requirement: 'Brake-by-wire messages need bounded latency on a shared link.', consequence: 'A time-aware shaper (802.1Qbv) and precision time sync (802.1AS) in hardware.'},
@@ -347,8 +357,9 @@ export const productPages: ProductPage[] = [
   },
   {
     id: 'd100', slug: 'd100', portfolioId: 'track-b-d100',
+    story: {"physics": "A failsafe must act when the mission computer cannot.", "blocks": "Flight, geometric navigation and failsafe are separate responsibilities.", "specs": "Navigation and thermal targets need airframe evidence.", "questions": "Flight safety depends on drift, heat and failure-injection tests.", "conclusion": "Start the flight evaluation with the safe-state transition.", "evaluationAsk": "Bring the airframe, navigation conditions, thermal envelope, lost-link cases and required flight-safety evidence."},
     headline: 'A drone SoC whose failsafe does not trust its own flight computer.',
-    lede: 'D100 combines real-time flight control, visual-inertial odometry for GPS-denied navigation, and an isolated hardware failsafe island with its own power, clock and path to the motor controllers. When the mission computer locks up or the link is lost, the island brings the airframe to a safe state without it.',
+    lede: 'Architecture scope, pre-silicon: D100 combines real-time flight control, visual-inertial odometry for GPS-denied navigation, and an isolated hardware failsafe island with its own power, clock and path to the motor controllers. When the mission computer locks up or the link is lost, the island brings the airframe to a safe state without it.',
     physics: [
       {requirement: 'Recovery must work when the flight software has failed.', consequence: 'A separate safe-state machine and link monitor in their own power and clock domain, wired directly to the ESCs.'},
       {requirement: 'Navigation without GPS.', consequence: 'A hardware visual-inertial engine running a six-degree-of-freedom Kalman filter at 30 Hz.'},

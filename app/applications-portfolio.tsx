@@ -137,12 +137,12 @@ export default function ApplicationsPortfolio() {
               <section key={a.id} className="pf-line" id={'area-' + a.id} aria-labelledby={'area-' + a.id + '-h'}>
                 <div className="pf-function-path" aria-label="System function relationship">{(a.id==='motors'?['Motor feedback','Checked control','Power stage']:a.id==='vehicles'?['Harness interface','Local functions','Zonal coordination']:a.id==='defence'?['Platform constraints','D100 / control','Qualification']:a.id==='grid'?['Acquisition','Metrology','Deployment']:['Power rails','Supervision','Predictable startup']).map((label,i)=><span key={label}><small>0{i+1}</small>{label}</span>)}</div>
                 <header className="pf-line-head">
-                  <h2 id={'area-' + a.id + '-h'}>{a.name}</h2>
+                  <h2 id={'area-' + a.id + '-h'}>{a.headline}</h2>
                   <p className="pf-line-figure num">
                     {members.length} {members.length === 1 ? 'chip' : 'chips'}
                     {members.some(m => m.onSilicon) ? ' · 1 pre-silicon' : ''}
                   </p>
-                  <p className="pf-line-lead">{a.headline} {a.lede}</p>
+                  <p className="pf-line-lead">{a.name}. {a.lede}</p>
                 </header>
                 <div className="pf-grid">
                   {members.map(r => {
